@@ -42,7 +42,7 @@ Inkjet/
 ## 🔓 公開方針 / Open Access Policy
 
 - 本リポジトリは、**一般に公開された技術情報・学術資料・特許・記事など**をもとに構成されています。
-- EPSONを含む一部詳細技術情報（製品図面、構造断面、量産条件などの**社内資料や開発ノウハウ**）は、別途非公開リポジトリ `Private/precisioncoreprinthead/` にて管理しています。
+- EPSONを含む一部詳細技術情報（製品図面、構造断面、量産条件などの**社内資料や開発ノウハウ**）は、別途非公開リポジトリ `Private/Epson/` にて管理しています。
 - 公開範囲と非公開範囲を厳密に分離し、教育・研究・技術比較の安全な情報ベースとして活用できるように設計しています。
 
 This repository includes only **non-confidential, publicly available information**.  
