@@ -60,3 +60,82 @@ Inkjet/
 
 ```
 
+---
+
+## 🔓 Open Access Policy
+
+- This repository is based on **open-source publications, patents, academic articles, and publicly accessible materials**.
+- It **excludes all proprietary, confidential, or internal development data** (e.g., product drawings, process parameters).
+- Confidential technical details (e.g., structural data from EPSON) are stored in the separate private archive `Private/Epson/uTFP/`.
+
+> 🔐 Internal archive: `Private/Epson/`
+
+---
+
+## 🎯 Intended Use
+
+| Purpose            | Description |
+|--------------------|-------------|
+| 🎓 Education        | Teaching materials to understand inkjet structure and operation |
+| 🛠 Technical Analysis | Comparative review of head structures and ink compatibility |
+| 📊 Product Planning | Reference for selecting heads, waveform tuning, and ink types |
+| 🧪 R&D Exploration  | Use cases in 3D printing, bio-ink, and functional printing research |
+
+---
+
+## 🔧 Tools & Format
+
+- Written in Markdown (compatible with Zenn / GitHub Pages)
+- Uses Mermaid.js for technical diagrams and mappings
+- GitHub Pages support planned → [Samizo-AITL.github.io (in progress)](https://github.com/Samizo-AITL)
+
+> Mermaid diagram sample: [Application Fields](./comparison/usage_fields.md)
+
+---
+
+## 📎 Related Repositories
+
+| Project | Description |
+|---------|-------------|
+| [Edusemi-v4x](https://github.com/Samizo-AITL/Edusemi-v4x) | Semiconductor education platform (design, process, test, reliability) |
+| [EduMecha](https://github.com/Samizo-AITL/EduMecha) | Mechanical design tutorials with Creo, integrated with inkjet examples |
+| [AITL-H](https://github.com/Samizo-AITL/AITL-H) | Hybrid intelligent control system (FSM×PID×LLM) for devices like inkjet systems |
+| [SamizoGPT](https://github.com/Samizo-AITL/SamizoGPT) | Prompt toolkit for education, research, and technical design |
+
+---
+
+## 👤 Author
+
+**Shinichi Samizo**  
+- M.S. in Electrical and Electronic Engineering, Shinshu University  
+- Former R&D Engineer at Seiko Epson Corporation (since 1997)  
+
+**Expertise**:
+- Semiconductor process development (logic, memory, HV mixed-signal)
+- Thin-film piezoelectric actuator development
+- Product design & quality assurance of PrecisionCore printheads
+
+📫 [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)  
+📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+
+---
+
+## 🔜 Roadmap
+
+- [ ] 📘 Public launch via GitHub Pages (Zenn-compatible)
+- [ ] 🧠 Prompt integration via SamizoGPT (for material generation and comparison)
+- [ ] 🖨️ Add content on fluid simulation and jetting phenomena
+- [ ] 🏗️ Link to actual evaluation tools and PoC projects (image capture, automation)
+
+---
+
+## 💬 Feedback & Suggestions
+
+Your ideas, corrections, and contributions are welcome!  
+Please feel free to open a topic in the Discussions tab below:
+
+👉 [💬 Go to Discussions](https://github.com/Samizo-AITL/Inkjet/discussions)
+
+(You will need to sign in with your GitHub account to post.)
+
+---
