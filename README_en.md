@@ -1,93 +1,62 @@
-# Inkjet Technology Archive
+# 🖨️ Inkjet Technology Archive
 
-This repository is a structured, educational archive based **only on publicly available information**  
-related to inkjet printhead technologies.
+This repository provides a structured archive of **publicly available knowledge** on inkjet printhead technologies.  
+It covers the principles, structural features, drive mechanisms, ink compatibility, application fields, drop ejection evaluation, and the use of inkjet in additive manufacturing, with cross-comparisons of major vendors such as EPSON, Canon, Ricoh, Fujifilm, and HP.
 
-It provides systematic comparisons and classifications of printhead technologies from leading companies  
-such as **EPSON, Canon, Ricoh, Fujifilm, and HP**, covering:
-
-- Structural principles and drive mechanisms  
-- Ink compatibility and usage domains  
-- Drop ejection evaluation methods  
-- Applications in 3D printing
+> 🇯🇵 日本語版はこちら → [README.md](./README.md)
 
 ---
 
-> 🇯🇵 日本語版はこちら → [Japanese version / README.md](./README.md)
+## 📌 Project Overview
+
+This repository organizes only **non-confidential, open-source information** about inkjet printhead technologies.  
+It includes a cross-company technical comparison of structure, drive principles, ink types, application domains, and wave control strategies—useful for both educational and industrial purposes.
+
+Topics covered include:
+
+- Drive mechanisms (piezoelectric, thermal, MEMS, etc.)
+- Ink compatibility (aqueous, solvent, UV-curable)
+- Application fields (textile, packaging, electronics, bioprinting, etc.)
+- Drop evaluation techniques and waveform design
+- Integration with 3D printing and digital fabrication
+
+> 🔎 For details, refer to:  
+> → [Drive Mechanisms Comparison](./comparison/drive_methods.md)  
+> → [Application Fields](./comparison/usage_fields.md)  
+> → [Drop Ejection Evaluation](./evaluation_tools/ink_flight_analysis.md)
 
 ---
 
-## 📚 Repository Structure
+## 📁 Repository Structure
 
 ```plaintext
 Inkjet/
-├─ makers/                  # By manufacturer (EPSON, Canon, Ricoh, etc.)
+├─ makers/                      # Vendor-specific information (publicly available only)
 │   ├─ epson/
-│   │   ├─ uTFP/            # Chapters 1–8 (linked to Private repository)
-│   │   └─ MACH/
-│   └─ ricoh/, canon/, ...
+│   │   ├─ MACH/                # MACH head overview
+│   │   └─ uTFP/                # uTFP structure (linked to private archive)
+│   ├─ canon/
+│   ├─ ricoh/
+│   ├─ fujifilm/
+│   └─ hp/
 │
-├─ comparison/              # Comparative analysis by drive, usage, ink, etc.
-│   ├─ drive_methods.md
-│   ├─ usage_fields.md
-│   ├─ ink_types.md
-│   └─ summary_table.md
+├─ comparison/                  # Cross-vendor comparisons
+│   ├─ drive_methods.md         # Piezo vs. thermal vs. electrostatic principles
+│   ├─ usage_fields.md          # Application categories (industrial, medical, etc.)
+│   ├─ ink_types.md             # Ink compatibility: aqueous, solvent, UV, etc.
+│   └─ summary_table.md         # Summary table comparing technical features
 │
-├─ evaluation_tools/       # Drop analysis, waveform design, nozzle observation
-│   ├─ ink_flight_analysis.md
-│   ├─ waveform_control.md
-│   └─ equipment_list.md
+├─ evaluation_tools/           # Tools for drop control and observation
+│   ├─ waveform_control.md      # Waveform generation and drive optimization
+│   ├─ ink_flight_analysis.md   # Drop stability, velocity, diameter analysis
+│   └─ equipment_list.md        # Equipment for evaluation (strobe, camera, etc.)
 │
-├─ 3d_printing/            # Inkjet applications in 3D printing
-│   ├─ overview.md
-│   ├─ classification.md
-│   └─ inkjet_related.md
+├─ 3d_printing/                # Inkjet-based additive manufacturing
+│   ├─ overview.md              # General overview
+│   ├─ classification.md        # Technology classification and comparison
+│   └─ inkjet_related.md        # Inkjet use cases in AM (bioprinting, electronics)
 │
-└─ README.md               # Main repository overview (this file)
+└─ README_en.md                # This file
+
 ```
 
----
-
-## 🔓 Open Access Policy
-
-- This repository is constructed from **public-domain technical information**, academic papers, patents, and online publications.
-- Detailed proprietary data such as product blueprints, cross-sectional diagrams, or manufacturing specifications—especially regarding EPSON—are **maintained in a separate private repository**: `Private/Epson/`
-- By strictly separating open vs. confidential domains, this archive is designed to be a safe base for education, research, and fair technology comparisons.
-
----
-
-## 🎯 Intended Use
-
-- Educational use for understanding overall inkjet technologies and their drive mechanisms  
-- Technical analysis for engineers: ink compatibility, structural evaluation, equipment selection  
-- Reference material for articles, lectures, or Zenn publications  
-- Foundation for future convergence with 3D printing technologies  
-
----
-
-## 🛠 Tools & Formats
-
-- Markdown format (Zenn-compatible)  
-- Mermaid.js for technical diagrams and mappings  
-- GitHub Pages-ready (for publication or educational site deployment)  
-
----
-
-## 🧑‍🔬 Author
-
-- **Name**: Shinichi Samizo  
-- **Education**: M.S. in Electrical & Electronic Engineering, Shinshu University Graduate School  
-
-- **Professional Background**:  
-  Joined **Seiko Epson Corporation** in 1997.  
-  Engaged in development and production of:  
-  - Semiconductor device technologies (0.35μm to 0.18μm nodes)  
-  - Logic/memory/high-voltage device integration  
-  - Inkjet thin-film piezoelectric actuators  
-  - Also involved in commercial rollout of **PrecisionCore printheads**  
-
-- **Contact**:  
-  GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)  
-  Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
-
----
