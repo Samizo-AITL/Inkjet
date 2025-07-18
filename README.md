@@ -110,13 +110,13 @@ Inkjet/
 ## 👤 執筆者情報 / Author
 
 **三溝 真一（Shinichi Samizo）**  
-- 修士（電気電子工学）｜信州大学大学院 修了  
+- 信州大学大学院電気電子工学修士課程修了
 - 元 セイコーエプソン株式会社 技術者（1997年〜）  
 
 **経験領域**：
-- 半導体プロセス開発（SoC・高耐圧・VSRAM）
-- PZT薄膜プロセス／インクジェットアクチュエータ
-- PrecisionCoreプリントヘッド
+- 半導体プロセス開発（ロジック・メモリ・高耐圧混載）
+- 薄膜ピエゾアクチュエータ開発
+- PrecisionCoreプリントヘッド製品化
 
 📫 [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)  
 📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
@@ -129,8 +129,6 @@ Inkjet/
 - [ ] 🧠 SamizoGPT連携によるプロンプト支援（技術比較・教材生成）
 - [ ] 🖨️ 印刷現象と流体シミュレーションの連携資料追加
 - [ ] 🏗️ 評価系装置のPoC連携（撮像／波形記録／自動化）
-
----
 
 ---
 
