@@ -11,6 +11,10 @@ EPSON・Canon・Ricoh・Fujifilm・HP などの主要企業の方式を比較・
 
 ---
 
+> 🌐 英語版はこちら → [English version / README_en.md](./README_en.md)
+
+---
+
 ## 📚 Repository Contents
 
 | セクション             | 内容                                                 |
