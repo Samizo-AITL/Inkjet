@@ -86,16 +86,6 @@ Inkjet/
 
 ---
 
-## 🔧 使用技術・記述形式 / Tools & Format
-
-- Markdown（Zenn・GitHub Pages両対応）
-- Mermaid.js（構造図・用途マッピング）
-- 対応予定：GitHub Pages → [Samizo-AITL.github.io（構想中）](https://github.com/Samizo-AITL)
-
-> Mermaid例（用途分類） → [comparison/usage_fields.md](./comparison/usage_fields.md)
-
----
-
 ## 📎 関連リポジトリ / Related Repositories
 
 | プロジェクト名 | 内容 |
