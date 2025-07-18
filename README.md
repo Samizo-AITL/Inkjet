@@ -132,4 +132,15 @@ Inkjet/
 
 ---
 
+---
 
+## 💬 ご意見・提案 / Feedback & Suggestions
+
+本リポジトリに関するご意見・改善提案・議論などがあれば、以下の Discussion ページで歓迎します。  
+技術的観点・教育活用・構成改善など、どのような視点でもお気軽にご投稿ください。
+
+👉 [💬 Discussion ページはこちら](https://github.com/Samizo-AITL/Inkjet/discussions)
+
+※ GitHub アカウントでログインのうえ、トピック作成または既存スレッドへの返信が可能です。
+
+---
