@@ -8,6 +8,10 @@ It provides a comprehensive overview of drive mechanisms, application domains, i
 
 ---
 
+> 🌐 英語版はこちら → [English version / README_en.md](./README_en.md)
+
+---
+
 ## 📚 構成 / Repository Structure
 
 ```plaintext
