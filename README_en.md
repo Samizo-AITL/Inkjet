@@ -13,6 +13,10 @@ such as **EPSON, Canon, Ricoh, Fujifilm, and HP**, covering:
 
 ---
 
+> 🇯🇵 日本語版はこちら → [Japanese version / README.md](./README.md)
+
+---
+
 ## 📚 Repository Structure
 
 ```plaintext
