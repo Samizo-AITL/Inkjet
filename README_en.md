@@ -104,19 +104,21 @@ Inkjet/
 
 ---
 
-## 👤 Author
+## 👤 Author Profile
 
 **Shinichi Samizo**  
 - M.S. in Electrical and Electronic Engineering, Shinshu University  
-- Former R&D Engineer at Seiko Epson Corporation (since 1997)  
+- Former R&D Engineer at Seiko Epson Corporation (1997–)
 
-**Expertise**:
-- Semiconductor process development (logic, memory, HV mixed-signal)
-- Thin-film piezoelectric actuator development
-- Product design & quality assurance of PrecisionCore printheads
+📌 **Expertise**:  
+- Semiconductor devices (logic, memory, high-voltage mixed process)  
+- Thin-film piezoelectric actuators  
+- PrecisionCore printhead commercialization, configuration management, and technical education
 
-📫 [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)  
-📩 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+📬 **Contact**  
+- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
 
 ---
 
