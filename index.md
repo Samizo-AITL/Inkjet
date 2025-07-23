@@ -41,12 +41,21 @@ EPSON・Canon・Ricoh・Fujifilm・HP などの主要企業の方式を比較・
 
 ---
 
-## 👤 Author
+## 👤 執筆者情報 / Author
 
 **三溝 真一（Shinichi Samizo）**  
-- 信州大学大学院 電気電子工学 修士  
-- 元セイコーエプソン インクジェットアクチュエータ開発  
-- [GitHub: Samizo-AITL](https://github.com/Samizo-AITL)
+- 信州大学大学院 電気電子工学 修了  
+- 元 セイコーエプソン株式会社 技術者（1997年〜）  
+
+📌 **経験領域**：  
+- 半導体デバイス（ロジック／メモリ／高耐圧混載）  
+- 薄膜ピエゾアクチュエータ  
+- PrecisionCoreプリントヘッド製品化・構成管理・教育設計
+
+📬 **連絡先**
+- ✉️ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 X (Twitter): [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 GitHub: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
 
 ---
 
