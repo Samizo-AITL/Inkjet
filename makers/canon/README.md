@@ -1,7 +1,7 @@
 # Canon — BubbleJet方式（サーマルインクジェット）の概要
 
 本セクションでは、Canonが採用しているインクジェット方式「BubbleJet（バブルジェット）」に関する技術的特徴を、公開情報に基づいて整理します。  
-これは代表的な**サーマルインクジェット方式（TIJ: Thermal Inkjet）**の一種であり、EPSONのピエゾ方式と並ぶ主要アプローチの一つです。
+これは代表的な **サーマルインクジェット方式（TIJ: Thermal Inkjet）** の一種であり、EPSONのピエゾ方式と並ぶ主要アプローチの一つです。
 
 ---
 
@@ -65,8 +65,25 @@
 
 ---
 
+## 🌐 参考リンク（Canon公式サイト）
+
+| ページ名 | 内容 | リンク |
+|----------|------|--------|
+| 技術紹介（インクジェット） | BubbleJetの基本技術と構造説明（英語） | [https://global.canon/en/technology/bubblejet.html](https://global.canon/en/technology/bubblejet.html) |
+| PIXUS製品情報 | 家庭用インクジェットプリンタのラインナップ | [https://cweb.canon.jp/pixus/](https://cweb.canon.jp/pixus/) |
+| MAXIFYシリーズ | ビジネス向けインクジェット製品 | [https://canon.jp/business/inkjet/maxify](https://canon.jp/business/inkjet/maxify) |
+| 特許情報検索（J-PlatPat） | BubbleJet関連の出願特許調査に活用可能 | [https://www.j-platpat.inpit.go.jp/](https://www.j-platpat.inpit.go.jp/) |
+
+> 🔗 上記リンクはすべてCanon公式または関連公的機関の公開情報です。本リポジトリは教育目的であり、公式情報の解釈・補足にとどまります。
+
+---
+
 ## 📚 参考資料
 
-- Canon 公式技術資料  
-- 特許：JP2002-123456, US2003/456789A1（BubbleJet構造）  
-- 応用物理学会誌／インクジェット年鑑 各社技術特集
+- Canon 技術紹介サイト（[BubbleJet Technology](https://global.canon/en/technology/bubblejet.html)）
+- 特許例：JP2002-123456, US2003/456789A1（BubbleJet構造）
+- 応用物理学会誌、インクジェット年鑑、Display Japan他の技術特集記事
+
+---
+
+📁 Maintained by [Samizo-AITL](https://samizo-aitl.github.io)
