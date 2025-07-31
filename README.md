@@ -22,7 +22,9 @@ including **drive mechanisms** (piezo, thermal, MEMS), **ink compatibility** (aq
 > → [**駆動方式の比較 / drive_methods.md**](./comparison/drive_methods.md)  
 > → [**用途分類 / usage_fields.md**](./comparison/usage_fields.md)  
 > → [**波形・インク飛翔評価 / ink_flight_analysis.md**](./evaluation_tools/ink_flight_analysis.md)
-> | [`fabrication/`](./fabrication/) | **ラピス薄膜ピエゾCMOS混載技術に関する事例紹介（公開情報ベース）** |
+> - **ラピス薄膜ピエゾCMOS混載事例（公開情報ベース） / Lapis Thin-Film Piezo CMOS Integration Case**  
+  ▶ [fabrication/](./fabrication/)
+
 
 ---
 
