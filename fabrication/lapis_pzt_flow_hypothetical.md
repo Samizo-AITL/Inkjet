@@ -1,9 +1,15 @@
-# ラピス ピエゾ混載CMOSプロセスフロー（技術推定要約）  
+# ラピス ピエゾ混載CMOSプロセスフロー（技術推定要約 / Hypothetical Process Flow）  
 Lapis PZT-Integrated CMOS Process Flow (Hypothetical Summary)
 
 > *LAPIS Semiconductor - Monolithic Integration of PZT MEMS and CMOS Circuits (Hypothetical Reconstruction)*
 
 ---
+
+> ⚠️ **注意 / Caution**  
+> 本ドキュメントは、**ラピスセミコンダクタの公開情報に基づく技術推定フロー**です。実際の製造プロセスとは異なる可能性があります。  
+> This document presents a **hypothetical process flow** based on **publicly available information from LAPIS Semiconductor**. It may differ from actual manufacturing procedures.
+
+
 
 ## ✅ 技術概要（Summary）
 
