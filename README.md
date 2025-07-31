@@ -19,11 +19,18 @@ including **drive mechanisms** (piezo, thermal, MEMS), **ink compatibility** (aq
 **evaluation methods**, and **application fields** such as **printing**, **electronics**, and **3D fabrication**.
 
 > 🔎 **詳細な比較・評価内容は以下をご参照ください：**  
-> → [**駆動方式の比較 / drive_methods.md**](./comparison/drive_methods.md)  
-> → [**用途分類 / usage_fields.md**](./comparison/usage_fields.md)  
-> → [**波形・インク飛翔評価 / ink_flight_analysis.md**](./evaluation_tools/ink_flight_analysis.md)
+>  
+> - **駆動方式の比較 / Drive Method Comparison**  
+>   ▶ [comparison/drive_methods.md](./comparison/drive_methods.md)  
+>  
+> - **用途分類 / Application Fields**  
+>   ▶ [comparison/usage_fields.md](./comparison/usage_fields.md)  
+>  
+> - **波形・インク飛翔評価 / Ink Flight Analysis**  
+>   ▶ [evaluation_tools/ink_flight_analysis.md](./evaluation_tools/ink_flight_analysis.md)  
+>  
 > - **ラピス薄膜ピエゾCMOS混載事例（公開情報ベース） / Lapis Thin-Film Piezo CMOS Integration Case**  
-  ▶ [fabrication/](./fabrication/)
+>   ▶ [fabrication/](./fabrication/)
 
 ---
 
