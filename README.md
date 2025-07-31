@@ -25,7 +25,6 @@ including **drive mechanisms** (piezo, thermal, MEMS), **ink compatibility** (aq
 > - **ラピス薄膜ピエゾCMOS混載事例（公開情報ベース） / Lapis Thin-Film Piezo CMOS Integration Case**  
   ▶ [fabrication/](./fabrication/)
 
-
 ---
 
 ## 📁 **ディレクトリ構成 / Repository Structure**
