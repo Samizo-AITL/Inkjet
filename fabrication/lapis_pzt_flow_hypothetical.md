@@ -20,7 +20,7 @@ Lapis PZT-Integrated CMOS Process Flow (Hypothetical Summary)
 | **電圧構成** | 高耐圧20V（G1-OX=430Å） + ロジック3.3V（G2-OX=70Å） | High voltage 20V + Logic 3.3V |
 | **酸化膜厚** | 実効Tox = 500Å（G1 + G2） | Effective Tox = 500Å |
 | **PZT構造** | Pt / PZT（10,000Å） / Ti（分割スパッタ + アニール4回） | Pt / PZT (10,000Å) / Ti with split sputtering and 4-step annealing |
-| **基板結晶方位** | Si(111)（裏面キャビティ加工対応） | Si(111) for backside cavity formation |
+| **基板結晶方位** | Si(111) SOI（裏面キャビティ加工・熱絶縁対応） | Si(111) SOI for backside cavity and thermal isolation |
 | **集積方式** | モノリシック：CMOS + PZTアクチュエータ混載 | Monolithic integration: CMOS + PZT actuator |
 | **放熱設計** | 裏面放熱＋GND配線＋サーマルビア実装 | Backside thermal dissipation + GND wiring + thermal vias |
 
@@ -54,7 +54,7 @@ Representative Process Flow (Excerpt)
 - PAD-PH/ET → パッド形成、AL-SNT / Pad definition and AL sonic trim
 
 ### 6. 裏面加工 / Backside Processing
-- Si(111)基板 → 異方性エッチングでキャビティ形成 / Cavity via anisotropic etching
+- Si(111) SOI基板 → 異方性エッチングでキャビティ形成 / Cavity via anisotropic etching
 
 ---
 
