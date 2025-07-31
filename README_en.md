@@ -20,10 +20,20 @@ It includes a **cross-company technical comparison** of **structure**, **drive p
 - **Drop evaluation techniques** and **waveform design**
 - Integration with **3D printing** and **digital fabrication**
 
-> 🔎 For details, refer to:  
-> → [**Drive Mechanisms Comparison**](./comparison/drive_methods.md)  
-> → [**Application Fields**](./comparison/usage_fields.md)  
-> → [**Drop Ejection Evaluation**](./evaluation_tools/ink_flight_analysis.md)
+> 🔎 **For detailed comparisons and evaluations, please refer to the following:**  
+>  
+> - **Comparison of Drive Methods**  
+>   ▶ [comparison/drive_methods.md](./comparison/drive_methods.md)  
+>  
+> - **Classification by Application Fields**  
+>   ▶ [comparison/usage_fields.md](./comparison/usage_fields.md)  
+>  
+> - **Ink Flight Evaluation and Waveform Analysis**  
+>   ▶ [evaluation_tools/ink_flight_analysis.md](./evaluation_tools/ink_flight_analysis.md)  
+>  
+> - **Lapis Thin-Film Piezo CMOS Integration Case (Based on Public Information)**  
+>   ▶ [fabrication/](./fabrication/)
+
 
 ---
 
