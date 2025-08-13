@@ -1,3 +1,9 @@
+---
+title: Inkjet Technology Archive  
+description: インクジェットプリントヘッド技術の比較・教育・応用のための公開情報アーカイブ  
+---
+
+ ---
  
 # 🖨️ **Inkjet — インクジェット技術アーカイブ / Inkjet Technology Archive**
 
