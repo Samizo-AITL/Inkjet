@@ -3,7 +3,12 @@ title: Inkjet Technology Archive
 description: インクジェットプリントヘッド技術の比較・教育・応用のための公開情報アーカイブ  
 ---
 
+---
+
 # 🖨️ **Inkjet Technology Archive / インクジェット技術アーカイブ**
+
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![view](https://img.shields.io/badge/view-site-brightgreen)](https://samizo-aitl.github.io)
 
 本プロジェクトは、**インクジェットプリントヘッド技術に関する公開情報のみ**を対象とし、  
 **技術比較・教育・応用研究に役立つリポジトリ**として構築されたものです。
