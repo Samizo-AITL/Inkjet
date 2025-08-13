@@ -1,5 +1,8 @@
 # 🖨️ **Inkjet Technology Archive**
 
+[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![view](https://img.shields.io/badge/view-site-brightgreen)](https://samizo-aitl.github.io)
+
 This repository provides a structured archive of **publicly available knowledge** on **inkjet printhead technologies**.  
 It covers the **principles**, **structural features**, **drive mechanisms**, **ink compatibility**, **application fields**, **drop ejection evaluation**, and the use of inkjet in **additive manufacturing**, with **cross-comparisons** of major vendors such as **EPSON**, **Canon**, **Ricoh**, **Fujifilm**, and **HP**.
 
