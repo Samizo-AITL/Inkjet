@@ -43,6 +43,18 @@ including **drive mechanisms** (piezo, thermal, MEMS), **ink compatibility** (aq
 
 ---
 
+## 📚 **Repository Contents / コンテンツ構成**
+
+| セクション | 内容概要 |
+|------------|----------|
+| [`makers/`](./makers/) | 各社（Epson, Canon, Ricoh, Fujifilm, etc.）の**技術方式・ヘッド構造の比較** |
+| [`comparison/`](./comparison/) | **駆動方式・インク種・用途・解像度**などの観点での**横断的な技術比較** |
+| [`evaluation_tools/`](./evaluation_tools/) | **波形制御・滴下観察・評価装置**に関する**解説・基礎知識** |
+| [`3d_printing/`](./3d_printing/) | **材料噴射型3Dプリント**技術への**応用可能性・ヘッド適合性の検討** |
+| [`fabrication/`](./fabrication/) | **ラピス薄膜ピエゾCMOS混載技術に関する事例紹介（公開情報ベース）** |
+
+---
+
 ## 📁 **ディレクトリ構成 / Repository Structure**
 
 ```plaintext
