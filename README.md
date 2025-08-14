@@ -33,8 +33,6 @@ EPSON・Canon・Ricoh・Fujifilm・HPなど主要メーカーの**構造・駆�
 This repository is an **open technical archive** based solely on **public information** about **inkjet printhead technologies**.  
 It spans **structure, drive methods, ink compatibility, application-specific evaluation, ink flight phenomena,** and **3D printing applications**, across major manufacturers such as EPSON, Canon, Ricoh, Fujifilm, and HP.
 
-> 🌐 **英語版はこちら / English version:** [**README_en.md**](./README_en.md)
-
 ---
 
 ## 📚 **Repository Contents / コンテンツ構成**
