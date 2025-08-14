@@ -13,12 +13,13 @@ description: インクジェットプリントヘッド技術の比較・教育�
 
 ## 🔗 **公式リンク | Official Links**
 
-| 言語 / Language | 種別 / Type | リンク / Link |
-|------|------|--------|
-| 🇯🇵 Japanese Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Inkjet/](https://samizo-aitl.github.io/Inkjet/) |
-| 🇯🇵 Japanese Version | 💻 GitHub | [https://github.com/Samizo-AITL/Inkjet](https://github.com/Samizo-AITL/Inkjet) |
-| 🇺🇸 English Version | 🌐 GitHub Pages | [https://samizo-aitl.github.io/Inkjet/en/](https://samizo-aitl.github.io/Inkjet/en/) |
-| 🇺🇸 English Version | 💻 GitHub | [https://github.com/Samizo-AITL/Inkjet/tree/main/en](https://github.com/Samizo-AITL/Inkjet/tree/main/en) |
+**🇯🇵 Japanese**  
+[![🌐 GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/)  
+[![💻 GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet)  
+
+**🇺🇸 English**  
+[![🌐 GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/Inkjet/en/)  
+[![💻 GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/Inkjet/tree/main/en)
 
 ---
 
