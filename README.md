@@ -3,6 +3,8 @@ title: Inkjet Technology Archive
 description: インクジェットプリントヘッド技術の比較・教育・応用のための公開情報アーカイブ  
 ---
 
+---
+
 # 🖨️ **Inkjet — インクジェット技術アーカイブ / Inkjet Technology Archive**
 
 [![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -22,93 +24,111 @@ description: インクジェットプリントヘッド技術の比較・教育�
 
 ## 📌 **プロジェクト概要 / Project Overview**
 
-本リポジトリは、**インクジェットプリントヘッドに関する公開可能な情報のみ**を対象とし、  
-**構造・駆動方式・インク適合性・用途・評価手法・3Dプリンティング応用**までを横断的に整理した**技術アーカイブ**です。  
-**EPSON・Canon・Ricoh・Fujifilm・HP** など、主要メーカーの**技術比較**も含み、**教育・研究・製品開発**の基礎資料として活用できます。
+**日本語 / Japanese**  
+本リポジトリは、**インクジェットプリントヘッド技術に関する公開可能な情報のみ**を体系的に整理した**技術アーカイブ**です。  
+EPSON・Canon・Ricoh・Fujifilm・HPなど主要メーカーの**構造・駆動方式・インク適合性・用途別評価・インク飛翔現象・3Dプリンティング応用**まで幅広くカバーしています。
 
-This repository focuses exclusively on **publicly available knowledge** about inkjet printhead technologies,  
-covering **structure**, **drive methods**, **ink compatibility**, **application fields**, **evaluation techniques**, and **3D printing applications**.  
-It also includes **cross-manufacturer comparisons** (Epson, Canon, Ricoh, Fujifilm, HP, etc.) for use in **education, research, and product development**.
+**English**  
+This repository is an **open technical archive** based solely on **public information** about **inkjet printhead technologies**.  
+It spans **structure, drive methods, ink compatibility, application-specific evaluation, ink flight phenomena,** and **3D printing applications**, across major manufacturers such as EPSON, Canon, Ricoh, Fujifilm, and HP.
+
+> 🌐 **英語版はこちら / English version:** [**README_en.md**](./README_en.md)
 
 ---
 
 ## 📚 **Repository Contents / コンテンツ構成**
 
-| フォルダ / Folder | 説明 / Description |
-|-------------------|--------------------|
-| [`makers/`](./makers/) | **各社（Epson, Canon, Ricoh, Fujifilm, etc.）の技術方式・ヘッド構造の比較 / Manufacturer-specific technology & structure comparison** |
-| [`comparison/`](./comparison/) | **駆動方式・インク種・用途・解像度などの観点での横断的技術比較 / Cross-technology comparison (drive method, ink type, applications, resolution)** |
-| [`evaluation_tools/`](./evaluation_tools/) | **波形制御・滴下観察・評価装置に関する解説・基礎知識 / Fundamentals of waveform control, droplet observation, and evaluation tools** |
-| [`3d_printing/`](./3d_printing/) | **材料噴射型3Dプリント技術への応用可能性・ヘッド適合性の検討 / Feasibility & head compatibility for material jetting 3D printing** |
-| [`fabrication/`](./fabrication/) | **ラピス薄膜ピエゾCMOS混載技術に関する事例紹介（公開情報ベース） / Lapis thin-film piezo CMOS integration case (public info)** |
+| フォルダ / Folder | 説明（日本語 / Japanese） | Summary (English) |
+|-------------------|---------------------------|-------------------|
+| [`makers/`](./makers/) | 各社（Epson, Canon, Ricoh, Fujifilm, etc.）の**技術方式・ヘッド構造の比較** | Manufacturer-specific **technology & head structure comparison** |
+| [`comparison/`](./comparison/) | **駆動方式・インク種・用途・解像度**の観点での**横断的比較** | Cross-technology comparison by **drive method, ink type, applications, resolution** |
+| [`evaluation_tools/`](./evaluation_tools/) | **波形制御・滴下観察・評価装置**の**基礎知識と解説** | Fundamentals of **waveform control, droplet observation, evaluation tools** |
+| [`3d_printing/`](./3d_printing/) | **材料噴射型3Dプリント**への**応用可能性・ヘッド適合性** | Feasibility & **head compatibility** for **material jetting 3D printing** |
+| [`fabrication/`](./fabrication/) | **薄膜ピエゾCMOS混載（ラピス）事例（公開情報ベース）** | **Lapis thin-film piezo CMOS integration** (public info only) |
+
+---
+
+## 📁 **ディレクトリ構成 / Repository Structure**
+
+    Inkjet/
+    ├─ makers/
+    │   ├─ epson/
+    │   ├─ canon/
+    │   ├─ ricoh/
+    │   ├─ fujifilm/
+    │   └─ hp/
+    │
+    ├─ comparison/
+    │   ├─ drive_methods.md
+    │   ├─ usage_fields.md
+    │   ├─ ink_types.md
+    │   └─ summary_table.md
+    │
+    ├─ evaluation_tools/
+    │   ├─ waveform_control.md
+    │   ├─ ink_flight_analysis.md
+    │   └─ equipment_list.md
+    │
+    ├─ 3d_printing/
+    │   ├─ overview.md
+    │   ├─ classification.md
+    │   └─ inkjet_related.md
+    │
+    └─ README.md
 
 ---
 
 ## 🔓 **公開方針 / Open Access Policy**
 
-- 本リポジトリは、**公開特許・論文・学術資料・業界記事**などの**一般公開情報**に基づき構成されています。  
-- **製品図面・社内プロセス・量産条件・解析結果等の機密情報は一切含みません**。  
-- 一部、詳細技術情報は `Private/Epson/uTFP/` 等の**非公開領域**に分離して管理しています。
-
-This repository is built entirely from **public patents, papers, academic references, and industry articles**.  
-No confidential information such as **product drawings, in-house processes, mass production conditions, or analysis results** is included.  
-Some detailed information is kept in **private repositories** for internal reference.
+- **日本語**：公開特許・論文・学術資料・業界記事などの**一般公開情報**のみに基づき構成。機密情報は含みません。  
+- **English**: Built only from **public patents, papers, academic references, and industry articles**. **No confidential data** is included.
 
 ---
 
 ## 🎯 **想定用途 / Intended Use**
 
-| 用途 / Use Case | 説明 / Description |
-|------|------|
-| 🎓 **教育・研修 / Education & Training** | **インクジェット技術の原理・構造・応用**を体系的に理解する教材 / Structured learning material for inkjet technology fundamentals |
-| 🛠 **技術比較 / Technical Benchmarking** | **メーカー別のプリントヘッド特性・インク適合性・用途適合**の比較 / Cross-manufacturer feature & compatibility comparison |
-| 📊 **製品選定 / Product Selection** | **設計や開発のための参考情報**（波形制御や評価装置選定含む） / Reference for product design & development (incl. waveform control & test equipment) |
-| 🧪 **応用研究 / Applied Research** | **3Dプリンティング・バイオプリンティング・機能性インク開発**の研究基盤 / Foundation for research in 3D printing, bioprinting, and functional inks |
+| 用途 / Use Case | 説明（日本語 / Japanese） | Description (English) |
+|------|-----------------------------|-----------------------|
+| 🎓 **教育・研修 / Education & Training** | 原理・構造・応用を**体系的に学習** | Structured learning of **principles, structure, applications** |
+| 🛠 **技術比較 / Technical Comparison** | メーカー別の**特性・適合性**を比較 | Compare **features & compatibilities** across makers |
+| 📊 **製品選定 / Product Selection** | 設計・開発の**参考資料**（波形・評価装置含む） | Reference for **design & development** (incl. waveform & equipment) |
+| 🧪 **応用研究 / Applied Research** | **3D/バイオプリント**等の研究出発点 | Starting point for **3D/bio printing** research |
 
 ---
 
 ## 📎 **関連リポジトリ / Related Repositories**
 
-| プロジェクト名 / Project Name | 内容 / Description |
-|----------------|----------------|
-| [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) | 半導体技術教育教材（プロセス設計・テスト・信頼性など） / Semiconductor technology education materials |
-| [**EduMecha**](https://github.com/Samizo-AITL/EduMecha) | 機械設計・Creo教材（プリントヘッド構造統合演習対応） / Mechanical design & Creo exercises (includes printhead design integration) |
-| [**AITL-H**](https://github.com/Samizo-AITL/AITL-H) | FSM×PID×LLMによる知能制御（インクジェット装置制御応用可） / Intelligent control architecture applicable to inkjet systems |
-| [**SamizoGPT**](https://github.com/Samizo-AITL/SamizoGPT) | 教材・プロンプト設計支援ツール（Zenn展開予定） / Prompt design & learning support tool |
+| プロジェクト名 / Project Name | 内容（日本語 / Japanese） | Summary (English) |
+|----------------|-----------------------------|-------------------|
+| [**Edusemi-v4x**](https://github.com/Samizo-AITL/Edusemi-v4x) | 半導体技術教育（プロセス・設計・PDK・テスト） | Semiconductor education (process, design, PDK, test) |
+| [**EduMecha**](https://github.com/Samizo-AITL/EduMecha) | 機械設計・Creo教材（**プリントヘッド構造演習**対応） | Mechanical design & Creo training (**printhead structure exercises**) |
+| [**AITL-H**](https://github.com/Samizo-AITL/AITL-H) | **FSM×PID×LLM**による知能制御（装置制御に応用可） | **Hybrid intelligent control** (applicable to equipment control) |
+| [**SamizoGPT**](https://github.com/Samizo-AITL/SamizoGPT) | 教材・プロンプト設計支援ツール | Prompt design & learning support tool |
 
 ---
 
 ## 👤 **執筆者情報 / Author**
 
-**三溝 真一（Shinichi Samizo）**  
-- **信州大学大学院 電気電子工学 修了 / M.Eng. in Electrical & Electronic Engineering, Shinshu University**  
-- 元 **セイコーエプソン株式会社 技術者 / Former Engineer, Seiko Epson Corp. (1997–)**
-
-📌 **経験領域 / Expertise**:  
-- **半導体デバイス / Semiconductor Devices**（ロジック・メモリ・高耐圧混載）  
-- **インクジェット薄膜ピエゾアクチュエータ / Thin-film piezo actuators**  
-- **PrecisionCoreプリントヘッド製品化 / PrecisionCore printhead productization**  
-- **BOM管理・ISO教育 / BOM management & ISO training**
-
-📬 **連絡先 / Contact**  
-- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+| 項目 / Field | 内容（日本語 / Japanese） | Content (English) |
+|--------------|--------------------------|-------------------|
+| **氏名 / Name** | 三溝 真一 | Shinichi Samizo |
+| **学歴 / Education** | 信州大学大学院 電気電子工学 修了 | M.Eng., Electrical & Electronic Engineering, Shinshu University |
+| **経歴 / Career** | セイコーエプソン株式会社 技術者（1997年〜） | Former Engineer, Seiko Epson Corp. (1997–) |
+| **専門分野 / Expertise** | 半導体デバイス（ロジック・メモリ・高耐圧混載）<br>インクジェット薄膜ピエゾアクチュエータ<br>PrecisionCoreプリントヘッド製品化<br>BOM管理・ISO教育 | Semiconductor devices (logic, memory, high-voltage mixed)<br>Thin-film piezo actuators for inkjet<br>PrecisionCore printhead productization<br>BOM management & ISO training |
+| **連絡先 / Contact** | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
 
 ---
 
 ## 🔜 **今後の展開 / Roadmap**
 
-- [ ] 📘 **GitHub Pages展開 / Publish via GitHub Pages**（Zenn互換対応 / Zenn-compatible）  
-- [ ] 🧠 **SamizoGPT連携 / Link with SamizoGPT**（技術比較・教材生成 / tech comparison & content generation）  
-- [ ] 🖨️ **印刷現象と流体シミュレーションの連携 / Printing phenomena × fluid simulation**  
-- [ ] 🏗️ **評価系装置のPoC連携 / PoC integration with evaluation systems**
+- [ ] 🌐 **GitHub Pages展開 / Publish via GitHub Pages**  
+- [ ] 🧠 **SamizoGPT連携 / Link with SamizoGPT**  
+- [ ] 💧 **印刷現象 × 流体シミュレーション資料の追加 / Add jetting–fluid simulation docs**  
+- [ ] 🏗️ **評価装置PoC連携 / PoC integration with evaluation equipment**
 
 ---
 
 ## 💬 **ご意見・提案 / Feedback & Suggestions**
 
-本リポジトリに関する**ご意見・改善提案・議論**は以下の **Discussion ページ**で歓迎します。  
-Technical discussions and feedback are welcome on the **Discussion page** below:
-
-👉 [💬 GitHub Discussions](https://github.com/Samizo-AITL/Inkjet/discussions)
+**Discussions:** https://github.com/Samizo-AITL/Inkjet/discussions  
+ご意見・改善案は Discussion まで / Feedback & suggestions are welcome in Discussions.
