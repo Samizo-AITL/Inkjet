@@ -6,7 +6,7 @@ description: Open technical archive on inkjet printhead technology (structure, d
 # 🖨️ **Inkjet Technology Archive**
 
 <p align="left" style="display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;">
-  <a href="https://samizo-aitl.github.io/">
+  <a href="https://samizo-aitl.github.io/en/">
     <img src="https://img.shields.io/badge/Return%20to%20Samizo--AITL%20Portal-brightgreen" alt="Return to Samizo-AITL Portal">
   </a>
   <a href="../LICENSE">
