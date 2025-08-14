@@ -7,8 +7,7 @@ description: インクジェットプリントヘッド技術の比較・教育�
  
 # 🖨️ **Inkjet — インクジェット技術アーカイブ / Inkjet Technology Archive**
 
-[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![view](https://img.shields.io/badge/view-site-brightgreen)](https://samizo-aitl.github.io)
+[![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 本リポジトリは、**インクジェットプリントヘッド技術に関する公開可能な情報のみ**を体系的に整理した**技術アーカイブ**です。  
 **EPSON・Canon・Ricoh・Fujifilm・HP** など主要メーカーのプリントヘッド技術を横断的に分析し、  
