@@ -1,0 +1,10 @@
+title: Inkjet
+description: Inkjet tech archive based on public information
+markdown: kramdown
+kramdown:
+  input: GFM
+theme: null
+
+# 必要なら追加CSSをここに（例）
+# extra_css:
+#   - /assets/css/inkjet.css
