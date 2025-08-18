@@ -3,6 +3,8 @@ title: "富士フイルム（Dimatix）インクジェット技術（公開情�
 layout: default
 ---
 
+---
+
 # 富士フイルム（Dimatix）インクジェット技術（公開情報）  
 **Fujifilm Dimatix Inkjet Technology (Public Information)**
 
