@@ -1,73 +1,86 @@
-# インクジェット技術と3Dプリンタ応用 / Inkjet Applications in 3D Printing
-
-本章では、インクジェット方式を基盤とした3Dプリンティング技術の分類と、関連技術のマッピングを行います。  
-インクジェットの高精度な液滴制御技術は、**微細材料吐出・バインダ接着・機能性材料積層**といった3D造形応用に展開されつつあります。
+---
+title: "インクジェット技術と3Dプリンタ応用 | Inkjet Applications in 3D Printing"
+layout: default
+---
 
 ---
 
-## 🧩 1. インクジェットと3Dプリンタの接点
+# インクジェット技術と3Dプリンタ応用  
+# Inkjet Applications in 3D Printing
 
-| インクジェット技術      | 3Dプリンタ応用                       | 共通点                             |
-|-------------------------|--------------------------------------|------------------------------------|
-| 高精度液滴制御           | 材料吐出／接着剤噴射                 | マイクロ秒オーダーの液滴生成制御  |
-| 多ノズル並列印字         | 造形面へのライン走査                 | 高速面展開                         |
-| 波形調整による量制御     | 吐出量／積層厚みの制御               | 材料依存パラメータチューニング     |
+本章では、インクジェット方式を基盤とした **3Dプリンティング技術の分類とマッピング** を行います。  
+インクジェットの高精度な液滴制御技術は、**微細材料吐出・バインダ接着・機能性材料積層**といった3D造形応用に発展しています。  
 
 ---
 
-## 🧪 2. 応用方式の分類
+## 🧩 1. インクジェットと3Dプリンタの接点  
+## Points of Contact between Inkjet and 3D Printers
 
-### 🔹 Binder Jetting（バインダジェッティング）
-
-- 粉末層にバインダ液をインクジェットで選択的に吐出 → 接着
-- 造形後に焼結・硬化プロセスが必要
-- 材料例：石膏、セラミック、金属粉
-
-### 🔹 Material Jetting（材料ジェッティング）
-
-- 機能性材料（UV樹脂、ワックスなど）を液滴として直接積層
-- 各層ごとに紫外線や加熱により硬化
-- 使用例：歯科模型、マルチマテリアル構造体
-
-### 🔹 その他の応用形式
-
-- **Drop-on-Demand BioPrinting**（細胞スプレー）
-- **ナノ粒子ジェッティング**（電子デバイス・配線形成）
+| **インクジェット技術 / Inkjet Technology** | **3Dプリンタ応用 / 3D Printing Application** | **共通点 / Commonality** |
+|--------------------------------------------|-----------------------------------------------|--------------------------|
+| 高精度液滴制御 / Precise Droplet Control   | 材料吐出・接着剤噴射 / Material & Binder Jetting | マイクロ秒単位の液滴生成 / Microsecond-scale droplet control |
+| 多ノズル並列印字 / Multi-Nozzle Printing    | 造形面ライン走査 / Layer Scanning             | 高速面展開 / High-Speed Coverage |
+| 波形調整による量制御 / Waveform-Controlled Jetting | 吐出量・積層厚み制御 / Droplet Volume & Layer Thickness | 材料依存パラメータ制御 / Material-dependent Tuning |
 
 ---
 
-## 🏗 3. 構成装置の共通化と差異
+## 🧪 2. 応用方式の分類  
+## Classification of Application Methods
 
-| 項目               | インクジェット印刷機          | 3Dプリンタ（Jet方式）         |
-|--------------------|-------------------------------|-------------------------------|
-| ヘッド種類         | ピエゾ／サーマル              | 主にピエゾ（UV・高粘度対応）   |
-| 印字対象           | 紙／フィルム                  | 粉体層／レジン層               |
-| 固化手段           | 吸収／蒸発                    | 焼結・UV硬化・熱硬化など       |
-| 軸制御             | XYガントリー／ベルト搬送     | XYZステージ制御＋Z積層         |
+### 🔹 **Binder Jetting（バインダジェッティング）**
+- 粉末層にバインダ液をインクジェットで選択吐出 → 接着  
+- 焼結・硬化などの後処理を必要とする  
+- **材料例 / Materials**: 石膏、セラミック、金属粉  
 
----
+### 🔹 **Material Jetting（材料ジェッティング）**
+- 機能性材料（UV樹脂・ワックス等）を液滴として積層  
+- 各層をUVまたは加熱により硬化  
+- **用途例 / Applications**: 歯科模型、マルチマテリアル造形  
 
-## 🎯 4. 技術的課題と研究動向
-
-| 課題                         | 内容                                     |
-|------------------------------|------------------------------------------|
-| 吐出安定性                  | 高粘度材料や粒子混入系でのノズル詰まり  |
-| 固化／硬化プロセスの制御     | UV照射／加熱条件との整合が必要           |
-| 材料の分離・沈降対策         | 懸濁液系（スラリー）での安定分散技術     |
-| 高精細制御                   | 10μm以下スケールでの積層精度要求         |
+### 🔹 **その他の応用 / Other Applications**
+- **Drop-on-Demand BioPrinting**（細胞スプレー / Cell Spray）  
+- **ナノ粒子ジェッティング / Nano-Particle Jetting**（電子デバイス、配線形成）  
 
 ---
 
-## 🔄 5. Inkjetとの将来融合可能性
+## 🏗 3. 構成装置の共通化と差異  
+## Commonalities and Differences in Equipment
 
-- MEMSヘッドのマルチマテリアル化（複数流路・加温機能）
-- バイオプリンティング・医療デバイス形成への応用
-- 成膜／配線形成／フォトニクスなどナノ製造への展開
+| **項目 / Item**         | **インクジェット印刷機 / Inkjet Printer** | **3Dプリンタ（Jet方式） / Jetting 3D Printer** |
+|--------------------------|--------------------------------------------|-----------------------------------------------|
+| ヘッド種類 / Printhead   | ピエゾ／サーマル / Piezo, Thermal          | 主にピエゾ（UV・高粘度対応） / Piezo (UV/High Viscosity) |
+| 印字対象 / Substrate     | 紙／フィルム / Paper, Film                 | 粉体層／レジン層 / Powder, Resin Layers |
+| 固化手段 / Solidification | 吸収／蒸発 / Absorption, Evaporation       | 焼結・UV硬化・熱硬化 / Sintering, UV, Thermal |
+| 軸制御 / Axis Control    | XYガントリー／搬送ベルト / XY Gantry, Belt | XYZステージ＋Z積層 / XYZ Stage + Layering |
 
 ---
 
-## 📚 参考文献
+## 🎯 4. 技術的課題と研究動向  
+## Technical Challenges and Research Trends
 
-- ASTM分類（ASTM F2792-12a）：AM技術の公式分類
-- Fujifilm Dimatix Jetting Guide
-- Nature Materials, Additive Manufacturing Journal ほか
+| **課題 / Challenge**        | **内容 / Description** |
+|------------------------------|-------------------------|
+| 吐出安定性 / Jetting Stability | 高粘度材料・粒子混入液でのノズル詰まり / Nozzle clogging with viscous or particle inks |
+| 固化プロセス制御 / Solidification Control | UV照射・加熱条件との整合性 / Matching curing conditions |
+| 材料沈降対策 / Sedimentation Control | スラリー・懸濁液の分散安定性 / Slurry dispersion stability |
+| 高精細制御 / High Precision | 10µm以下積層精度要求 / Sub-10µm resolution requirements |
+
+---
+
+## 🔄 5. Inkjetとの将来融合可能性  
+## Future Integration Possibilities with Inkjet
+
+- **MEMSヘッドのマルチマテリアル化**（複数流路・加温機能）  
+- **バイオプリンティング × 医療デバイス形成**  
+- **成膜／配線形成／フォトニクス製造への応用**  
+- **CAD連携によるデジタルファブリケーションとの融合**  
+
+---
+
+## 📚 参考文献 / References
+
+- ASTM分類（ASTM F2792-12a）：*Standard Terminology for AM Technologies*  
+- Fujifilm Dimatix: *Jetting Design Guide*  
+- *Nature Materials*, *Additive Manufacturing Journal*  
+
+---
