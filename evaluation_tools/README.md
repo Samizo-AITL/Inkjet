@@ -3,6 +3,8 @@ layout: default
 title: evaluation_tools - 評価技術セクション | Evaluation Tools Section
 ---
 
+---
+
 # 評価技術セクション：インク飛行・波形制御・観察装置の技術整理  
 # **Evaluation Tools Section: Ink Flight, Waveform Control, and Observation Systems**
 
