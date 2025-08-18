@@ -120,7 +120,7 @@ Inkjet/
 | **学歴 / Education** | 信州大学大学院 電気電子工学 修了 | M.Eng., Electrical & Electronic Engineering, Shinshu University |
 | **経歴 / Career** | セイコーエプソン株式会社 技術者（1997年〜） | Former Engineer, Seiko Epson Corp. (1997–) |
 | **専門分野 / Expertise** | 半導体デバイス（ロジック・メモリ・高耐圧混載）<br>インクジェット薄膜ピエゾアクチュエータ<br>PrecisionCore製品化<br>BOM管理・ISO教育 | Semiconductor devices (logic, memory, high-voltage mixed)<br>Thin-film piezo actuators<br>PrecisionCore productization<br>BOM management & ISO training |
-| **連絡先 / Contact** | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
+| **連絡先 / Contact** | ✉️ [Email](mailto:shin3t72@gmail.com)<br>🐦 [X](https://x.com/shin3t72)<br>💻 [GitHub](https://samizo-aitl.github.io/) | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
 
 ---
 
