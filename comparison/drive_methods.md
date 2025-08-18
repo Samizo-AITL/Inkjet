@@ -1,80 +1,95 @@
-# 駆動方式の比較 / Comparison of Drive Methods
+---
+title: 駆動方式の比較 / Comparison of Drive Methods  
+description: サーマル方式とピエゾ方式（d31/d33）、駆動電圧・波形設計、メーカー別採用技術の比較 / Comparative overview of thermal vs piezo (d31/d33), drive voltage, waveform design, and manufacturer adoption
+---
 
+# ⚙️ **駆動方式の比較 / Comparison of Drive Methods**
+
+**日本語 / Japanese**  
 本ドキュメントでは、インクジェットプリントヘッドにおける代表的な駆動方式である **サーマル（熱方式）** と **ピエゾ方式（Piezoelectric）** の違いを整理します。  
-また、ピエゾ方式内部でもアクチュエータ構造に応じた分類（d31 vs d33）、駆動電圧・波形特性などを補足し、各社方式の理解を支援します。
+また、ピエゾ方式内部でも **アクチュエータ構造（d31 vs d33）** の違いや、**駆動電圧・波形特性**を補足し、各社方式の理解を支援します。  
+
+**English**  
+This document compares the two main inkjet drive methods: **thermal** and **piezoelectric**.  
+It also highlights classifications within piezo actuators (**d31 vs. d33**), along with notes on **driving voltages and waveform designs**,  
+to support understanding of each manufacturer’s approach.  
 
 ---
 
-## 🧪 1. 駆動方式の原理比較
+## 🧪 **1. 駆動方式の原理比較 / Principle Comparison**
 
-| 項目             | サーマル（Thermal）                  | ピエゾ（Piezoelectric）                      |
-|------------------|--------------------------------------|---------------------------------------------|
-| 駆動原理         | 抵抗体の加熱によりインクを沸騰・気泡生成 | ピエゾ素子の変形で圧力を加えインクを押し出す |
-| 主な材料         | ヒーター（TaN, HfB₂など）             | PZT（チタン酸ジルコン酸鉛）                  |
-| 温度ストレス     | 高（200〜300℃）                     | 低（常温〜小発熱）                            |
-| インク制限       | 熱安定性が必要（染料水性中心）         | 広範なインク対応（顔料／UV／溶剤等）          |
-| 特徴             | 低コスト・高速応答                   | 高精度・高信頼性・広い材料適用性              |
-| 採用例           | Canon（BubbleJet）、HP（TIJ）         | EPSON、Ricoh、Fujifilm、Konica Minolta 等    |
-
----
-
-## 🔍 2. ピエゾ素子構造の分類（d31 vs d33）
-
-### ◽ d31モード（横方向変位）
-
-- **構造**：バルク積層型（例：旧世代ヘッド）
-- **動作**：電界を加えると素子が横方向に収縮し、キャビティを押し出す
-- **特徴**：
-  - 高耐久・シンプル構造
-  - 駆動電圧はやや高め（30〜40V）
-  - 応答速度は中程度
-
-### ◽ d33モード（縦方向変位）
-
-- **構造**：薄膜PZT／MEMS構造（例：μTFP）
-- **動作**：電界により縦に伸縮し、インク室を直接圧縮
-- **特徴**：
-  - 高密度実装が可能（300〜600dpi）
-  - 応答性・エネルギー効率に優れる
-  - 微細MEMSプロセスが必要
+| 項目 / Item       | サーマル（Thermal） | ピエゾ（Piezoelectric） |
+|------------------|---------------------|-------------------------|
+| 駆動原理 / Principle | 抵抗体を加熱しインクを沸騰 → 気泡生成で吐出 | ピエゾ素子の変形で圧力を加えインクを押し出す |
+| 主な材料 / Materials | ヒーター（TaN, HfB₂ 等） | PZT（Lead Zirconate Titanate） |
+| 温度ストレス / Thermal Stress | 高（200〜300℃） | 低（常温〜小発熱） |
+| インク制限 / Ink Limitations | 熱安定性が必要（水性染料中心） | 広範なインク対応（顔料／UV／溶剤等） |
+| 特徴 / Features | 低コスト・高速応答 | 高精度・高信頼性・広い材料適用性 |
+| 採用例 / Examples | Canon（BubbleJet）、HP（TIJ） | Epson, Ricoh, Fujifilm, Konica Minolta 等 |
 
 ---
 
-## ⚡ 3. 駆動電圧と波形設計の工夫
+## 🔍 **2. ピエゾ素子構造の分類 / Piezoelectric Actuator Types**
 
-| 項目           | 内容                                      |
-|----------------|-------------------------------------------|
-| 電圧レベル      | サーマル：12〜24V / ピエゾ：20〜40V       |
-| 駆動構成        | ピエゾでは複数電極間の電位差で動作を制御    |
-| 波形制御        | パルス幅・振幅・立ち上がり制御で吐出量調整 |
-| 特殊設計（例）   | 一部ヘッドでは、圧電素子の有効変位を得るために、共通電極にオフセット（負バイアス）を与える設計が採用されていることがある |
-
-> ※ 圧電材料のヒステリシス特性により、抗電界を超える電界が必要な場合があり、そのための駆動波形設計が重要となる。
-
----
-
-## 🏭 4. メーカー別採用方式の概要
-
-| メーカー        | 駆動方式       | 備考（電極構成や制御方式）         |
-|------------------|----------------|------------------------------------|
-| EPSON            | ピエゾ（d33）  | 薄膜PZT + MEMS構造、独自の高応答制御方式採用（詳細非公開） |
-| Canon            | サーマル       | ヒーターによる気泡駆動（BubbleJet）         |
-| HP               | サーマル       | TIJ（Thermal InkJet）、使い捨て設計中心     |
-| Ricoh            | ピエゾ（d33）  | MEMS型ピエゾヘッド、高耐久設計               |
-| Fujifilm         | ピエゾ（d31/d33） | Dimatix含む各種構成。用途に応じたモジュール設計  |
+### ◽ **d31モード（横方向変位 / Lateral Deformation）**
+- **構造 / Structure**: バルク積層型（旧世代ヘッドに多い）  
+- **動作 / Operation**: 電界で素子が横方向に収縮 → キャビティを圧縮  
+- **特徴 / Features**:  
+  - 高耐久・シンプル構造  
+  - 駆動電圧はやや高め（30〜40V）  
+  - 応答速度は中程度  
 
 ---
 
-## 📌 今後の拡張予定
-
-- Mermaid.js による駆動方式構造図（d31 vs d33）
-- 波形制御の代表例とインク応答性のマッピング
-- ヒステリシスモデルと有効変位領域の可視化（例：PZT E-Vカーブ）
+### ◽ **d33モード（縦方向変位 / Vertical Deformation）**
+- **構造 / Structure**: 薄膜PZT／MEMS構造（例：μTFP）  
+- **動作 / Operation**: 電界で縦に伸縮し、インク室を直接圧縮  
+- **特徴 / Features**:  
+  - 高密度実装が可能（300〜600 dpi）  
+  - 応答性・エネルギー効率に優れる  
+  - 微細MEMSプロセスが必要  
 
 ---
 
-## 📚 参考資料
+## ⚡ **3. 駆動電圧と波形設計 / Drive Voltage & Waveform Design**
 
-- 特許：JP2018-xxxxxx, US2020/xxxxxxxA1 等  
-- 技術論文：応用物理学会誌／SID技術報告／JETRO報告  
-- メーカー技術カタログ：EPSON, Fujifilm, Ricoh 他
+| 項目 / Item        | 内容 / Notes |
+|--------------------|--------------|
+| 電圧レベル / Voltage | サーマル：12〜24V<br>ピエゾ：20〜40V |
+| 駆動構成 / Driving Scheme | ピエゾは複数電極間の電位差で動作を制御 |
+| 波形制御 / Waveform Control | パルス幅・振幅・立ち上がり制御で吐出量を最適化 |
+| 特殊設計 / Special Notes | 一部では共通電極に**オフセット電圧（負バイアス）**を与える設計を採用 |
+
+> ⚠️ 圧電材料はヒステリシス特性を持つため、抗電界を超える駆動が必要になる場合があり、波形設計が重要。  
+
+---
+
+## 🏭 **4. メーカー別採用方式 / Manufacturer Adoption**
+
+| メーカー / Manufacturer | 駆動方式 / Method | 備考 / Notes |
+|-------------------------|------------------|--------------|
+| **EPSON**   | ピエゾ（d33） | 薄膜PZT + MEMS構造、高応答制御方式（詳細非公開） |
+| **Canon**   | サーマル | ヒーターによる気泡駆動（BubbleJet） |
+| **HP**      | サーマル | TIJ（Thermal InkJet）、使い捨て設計中心 |
+| **Ricoh**   | ピエゾ（d33） | MEMS型ピエゾ、高耐久設計 |
+| **Fujifilm**| ピエゾ（d31/d33） | Dimatix 含む多様なモジュール構成 |
+
+---
+
+## 📌 **今後の拡張予定 / Planned Extensions**
+
+- 📊 Mermaid.js による駆動方式構造図（d31 vs d33）  
+- 📈 波形制御の代表例とインク応答性のマッピング  
+- 🔬 ヒステリシスモデルと有効変位領域の可視化（例：PZT E-Vカーブ）  
+
+---
+
+## 📚 **参考資料 / References**
+
+- 特許 / Patents: JP2018-xxxxxx, US2020/xxxxxxxA1  
+- 技術論文 / Papers: 応用物理学会誌, SID 技術報告, JETRO レポート  
+- メーカー資料 / Catalogs: Epson, Fujifilm, Ricoh 他  
+
+---
+
+🛠️ Maintained by [Samizo-AITL](https://samizo-aitl.github.io)
