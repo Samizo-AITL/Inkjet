@@ -3,6 +3,8 @@ title: Inkjet Technology Archive
 description: Open technical archive on inkjet printhead technology (structure, drive methods, ink compatibility, applications, 3D printing)
 ---
 
+---
+
 # 🖨️ **Inkjet Technology Archive**
 
 <p align="left" style="display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;">
