@@ -1,5 +1,14 @@
+---
+title: "ラピス ピエゾ混載CMOSプロセスフロー（技術推定要約） / Lapis PZT-Integrated CMOS Process Flow (Hypothetical Summary)"
+layout: default
+author: Samizo-AITL
+tags: ["Inkjet", "MEMS", "PZT", "LAPIS", "CMOS", "Hypothetical"]
+---
+
+---
+
 # ラピス ピエゾ混載CMOSプロセスフロー（技術推定要約 / Hypothetical Process Flow）  
-Lapis PZT-Integrated CMOS Process Flow (Hypothetical Summary)
+**Lapis PZT-Integrated CMOS Process Flow (Hypothetical Summary)**
 
 > *LAPIS Semiconductor - Monolithic Integration of PZT MEMS and CMOS Circuits (Hypothetical Reconstruction)*
 
@@ -9,12 +18,12 @@ Lapis PZT-Integrated CMOS Process Flow (Hypothetical Summary)
 > 本ドキュメントは、**ラピスセミコンダクタの公開情報に基づく技術推定フロー**です。実際の製造プロセスとは異なる可能性があります。  
 > This document presents a **hypothetical process flow** based on **publicly available information from LAPIS Semiconductor**. It may differ from actual manufacturing procedures.
 
+---
 
+## ✅ 技術概要 / Summary
 
-## ✅ 技術概要（Summary）
-
-| 項目 | 内容 | Description |
-|------|------|-------------|
+| 項目 / Item | 内容 / Details | Description |
+|-------------|----------------|-------------|
 | **プロセスノード** | 0.35μm セミリセスLOCOS | 0.35μm Semi-recessed LOCOS process |
 | **ゲート構造** | WSi（タングステンサイリサイド）ゲート | WSi (tungsten silicide) gate |
 | **電圧構成** | 高耐圧20V（G1-OX=430Å） + ロジック3.3V（G2-OX=70Å） | High voltage 20V + Logic 3.3V |
@@ -26,31 +35,30 @@ Lapis PZT-Integrated CMOS Process Flow (Hypothetical Summary)
 
 ---
 
-## 🧩 代表工程フロー（抜粋）  
-Representative Process Flow (Excerpt)
+## 🧩 代表工程フロー（抜粋） / Representative Process Flow (Excerpt)
 
 ### 1. ウェル・アイソレーション / Well & Isolation
-- LOCOS分離（セミリセス） / LOCOS isolation (semi-recessed)
+- LOCOS分離（セミリセス） / LOCOS isolation (semi-recessed)  
 - NWL/PWL（3.3V） + NWLH/PWLH（20V）
 
 ### 2. 酸化膜形成 / Oxide Formation
-- G1-OX（430Å）→ 高耐圧用 / for high voltage
-- G2-OX（70Å）→ ロジック用 / for logic
+- G1-OX（430Å）→ 高耐圧用 / for high voltage  
+- G2-OX（70Å）→ ロジック用 / for logic  
 - 実効Tox = 500Å、Eox ≒ 4 MV/cm
 
 ### 3. ゲート形成・注入 / Gate Formation & Doping
-- WSiゲート + PLYA-DP（パターン）/ WSi gate with PLYA-DP
-- NLD/PLD：3.3V用、NLDH/PLDH：20V用 / Logic and HV implantation
+- WSiゲート + PLYA-DP（パターン）/ WSi gate with PLYA-DP  
+- NLD/PLD：3.3V用、NLDH/PLDH：20V用 / Logic and HV implantation  
 - SW-DP/ET：フィールドストッパ注入 / Field stopper doping
 
 ### 4. PZT積層・アニール / PZT Deposition & Annealing
-- Pt-SP → PZT-SP（2,500Å × 4）→ Ti1/Ti2-SP
-- 各回後にPZT-ANL（450℃）×4回 / 450℃ annealing after each layer
+- Pt-SP → PZT-SP（2,500Å × 4）→ Ti1/Ti2-SP  
+- 各回後にPZT-ANL（450℃）×4回 / 450℃ annealing after each layer  
 - CAP-PH/ET：ミリングによる開口処理 / Milling for electrode access
 
 ### 5. メタル・プラグ・パッド形成 / Metal, Plug, Pad Formation
-- 金属層：ALA, HLA, ALB（3層Al）/ Three-layer Al interconnects
-- Wプラグ：CW, CWX, CWA / Tungsten plugs
+- 金属層：ALA, HLA, ALB（3層Al）/ Three-layer Al interconnects  
+- Wプラグ：CW, CWX, CWA / Tungsten plugs  
 - PAD-PH/ET → パッド形成、AL-SNT / Pad definition and AL sonic trim
 
 ### 6. 裏面加工 / Backside Processing
@@ -61,9 +69,9 @@ Representative Process Flow (Excerpt)
 ## 🔥 放熱設計と対策 / Thermal Design Considerations
 
 - 高電圧駆動による損失（I×V, C×V²×f）を裏面から放熱  
-  Power loss from high-voltage drive is dissipated through the backside
+  Power loss from high-voltage drive is dissipated through the backside  
 - ダイアタッチ材：高熱伝導タイプ（Agエポキシ等）  
-  Die attach with high thermal conductivity (e.g., Ag epoxy)
+  Die attach with high thermal conductivity (e.g., Ag epoxy)  
 - サーマルビア・放熱基板・GND設計による熱経路確保  
   Heat paths via thermal vias, substrate, and GND layout
 
@@ -72,11 +80,11 @@ Representative Process Flow (Excerpt)
 ## 🎓 教材的意義 / Educational Insights
 
 - 高耐圧CMOS設計とTox制御（500Å）  
-  HV CMOS design and oxide thickness control
+  HV CMOS design and oxide thickness control  
 - 分割スパッタ＋アニールによるPZT厚膜形成技術  
-  Thick PZT film via split sputtering and annealing
+  Thick PZT film via split sputtering and annealing  
 - 放熱設計・裏面エッチング・基板選定まで含めたMEMS-CMOS一体構造  
-  MEMS-CMOS integration considering heat, etching, substrate
+  MEMS-CMOS integration considering heat, etching, substrate  
 - 教材・研究用のPZT混載プロセス事例として高い教育価値あり  
   Valuable educational case for monolithic PZT-CMOS integration
 
