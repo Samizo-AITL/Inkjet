@@ -113,7 +113,7 @@ Built only from **public patents, papers, academic references, and industry arti
 | **Education** | M.Eng., Electrical & Electronic Engineering, Shinshu University |
 | **Career** | Former Engineer, Seiko Epson Corp. (1997–) |
 | **Expertise** | Semiconductor devices (logic, memory, high-voltage mixed)<br>Thin-film piezo actuators for inkjet<br>PrecisionCore printhead productization<br>BOM management & ISO training |
-| **Contact** | ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)<br>🐦 [https://x.com/shin3t72](https://x.com/shin3t72)<br>💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
+| **Contact** | ✉️ [Email](mailto:shin3t72@gmail.com) / 🐦 [X](https://x.com/shin3t72) / 💻 [GitHub](https://samizo-aitl.github.io/) |
 
 ---
 
