@@ -3,6 +3,8 @@ title: 用途別分類とインクジェット技術の応用展開 / Inkjet Usa
 description: インクジェット技術の用途領域を整理し、インク特性・ヘッド要件・設計背景を比較 / Classification of inkjet application domains with ink properties, head requirements, and design implications
 ---
 
+---
+
 # 🎨 **用途別分類とインクジェット技術の応用展開 / Inkjet Usage Fields and Application Domains**
 
 **日本語 / Japanese**  
