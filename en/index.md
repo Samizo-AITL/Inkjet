@@ -129,6 +129,15 @@ Inkjet/
 
 ---
 
+## 📄 **License**
+
+Licensed under **[MIT License](https://opensource.org/licenses/MIT)**.  
+Free to **reuse, modify, and fork** for educational and non-profit purposes.
+
+> Opinions and descriptions are those of the author.
+
+---
+
 ## 🔜 **Roadmap**
 
 - [ ] 🌐 **GitHub Pages deployment** — Public by Q3 2025  
