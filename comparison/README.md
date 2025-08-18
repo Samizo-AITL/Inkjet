@@ -3,6 +3,8 @@ title: 比較セクション — 駆動方式・用途・インク種類の技�
 description: インクジェット技術を構成する「駆動方式」「用途」「インク種類」を体系的に比較・整理 / Systematic comparison of inkjet drive methods, application fields, and ink types
 ---
 
+---
+
 # 📊 **比較セクション：駆動方式・用途・インク種類の技術比較 / Comparison Section: Drive Methods, Applications, Ink Types**
 
 **日本語 / Japanese**  
