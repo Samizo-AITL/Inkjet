@@ -129,6 +129,15 @@ Inkjet/
 
 ---
 
+## 📄 **ライセンス / License**
+
+- **JP:** 本教材は [**MIT License**](https://opensource.org/licenses/MIT) に基づき、**教育・非営利での再利用・編集・派生**を歓迎します。  
+- **EN:** Licensed under **[MIT License](https://opensource.org/licenses/MIT)**. Free to **reuse, modify, and fork** for education/non-profit.
+
+> **JP:** 記述は執筆者の調査・思考に基づきます。｜**EN:** Opinions are those of the author.
+
+---
+
 ## 🔜 **今後の展開 / Roadmap**
 
 - [ ] 🌐 **GitHub Pages展開** — 2025年Q3までに公開  
