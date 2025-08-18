@@ -3,6 +3,8 @@ title: "Canon — BubbleJet方式（サーマルインクジェット） | Canon
 layout: default
 ---
 
+---
+
 # Canon — BubbleJet方式（サーマルインクジェット）  
 **Canon BubbleJet (Thermal Inkjet)**
 
