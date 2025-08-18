@@ -3,6 +3,8 @@ title: 駆動方式の比較 / Comparison of Drive Methods
 description: サーマル方式とピエゾ方式（d31/d33）、駆動電圧・波形設計、メーカー別採用技術の比較 / Comparative overview of thermal vs piezo (d31/d33), drive voltage, waveform design, and manufacturer adoption
 ---
 
+---
+
 # ⚙️ **駆動方式の比較 / Comparison of Drive Methods**
 
 **日本語 / Japanese**  
