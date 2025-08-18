@@ -43,23 +43,16 @@ It spans **structure, drive methods, ink compatibility, application-specific eva
 
 | フォルダ / Folder | 説明（日本語 / Japanese） | Summary (English) |
 |-------------------|---------------------------|-------------------|
-| [`makers/`](./makers/) | 各社（Epson, Canon, Ricoh, Fujifilm, HP）の**技術方式・構造比較** | Technology & structure comparison for each manufacturer |
-| [`comparison/`](./comparison/) | **駆動方式・インク種・用途・解像度**による横断比較 | Cross-comparison by **drive method, ink type, applications, resolution** |
-| [`evaluation_tools/`](./evaluation_tools/) | **波形制御・滴下観察・評価装置**の基礎と解説 | Basics of **waveform control, droplet observation, evaluation equipment** |
-| [`3d_printing/`](./3d_printing/) | **材料噴射型3Dプリント**の応用・適合性 | Application & compatibility for **material jetting 3D printing** |
-| [`fabrication/`](./fabrication/) | **薄膜ピエゾCMOS混載事例**（公開情報ベース） | **Thin-film piezo CMOS integration** case studies (public info only) |
-
-
-## 📚 **Repository Contents / コンテンツ構成**
-
-| フォルダ / Folder | 説明（日本語 / Japanese） | Summary (English) | Links |
-|-------------------|---------------------------|-------------------|-------|
-| [`makers/`](./makers/) | 各社（Epson, Canon, Ricoh, Fujifilm, HP）の**技術方式・構造比較** | Technology & structure comparison for each manufacturer | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/makers/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/makers) |
-| [`comparison/`](./comparison/) | **駆動方式・インク種・用途・解像度**による横断比較 | Cross-comparison by **drive method, ink type, applications, resolution** | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/comparison/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/comparison) |
-| [`evaluation_tools/`](./evaluation_tools/) | **波形制御・滴下観察・評価装置**の基礎と解説 | Basics of **waveform control, droplet observation, evaluation equipment** | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/evaluation_tools/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/evaluation_tools) |
-| [`3d_printing/`](./3d_printing/) | **材料噴射型3Dプリント**の応用・適合性 | Application & compatibility for **material jetting 3D printing** | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/3d_printing/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/3d_printing) |
-| [`fabrication/`](./fabrication/) | **薄膜ピエゾCMOS混載事例**（公開情報ベース） | **Thin-film piezo CMOS integration** case studies (public info only) | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/fabrication/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/fabrication) |
-
+| 📂 **makers/**  
+[![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/makers/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/makers) | 各社（Epson, Canon, Ricoh, Fujifilm, HP）の**技術方式・構造比較** | Technology & structure comparison for each manufacturer |
+| 📂 **comparison/**  
+[![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/comparison/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/comparison) | **駆動方式・インク種・用途・解像度**による横断比較 | Cross-comparison by **drive method, ink type, applications, resolution** |
+| 📂 **evaluation_tools/**  
+[![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/evaluation_tools/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/evaluation_tools) | **波形制御・滴下観察・評価装置**の基礎と解説 | Basics of **waveform control, droplet observation, evaluation equipment** |
+| 📂 **3d_printing/**  
+[![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/3d_printing/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/3d_printing) | **材料噴射型3Dプリント**の応用・適合性 | Application & compatibility for **material jetting 3D printing** |
+| 📂 **fabrication/**  
+[![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Inkjet/fabrication/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Inkjet/tree/main/fabrication) | **薄膜ピエゾCMOS混載事例**（公開情報ベース） | **Thin-film piezo CMOS integration** case studies (public info only) |
 
 ---
 
