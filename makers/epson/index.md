@@ -83,7 +83,7 @@ EPSONは独自の**ピエゾ方式（Piezoelectric Inkjet）**を採用してお
 本ディレクトリに関連する詳細技術情報は、機密情報のため非公開としています。  
 This repository is supplemented by confidential technical details, which are **not disclosed publicly**.
 
-- 📂 [Private/Epson リポジトリ（GitHub 内部）](https://samizo-aitl.github.io/Private/Epson)  
+- 📂 [Private/Epson リポジトリ（GitHub 内部）](https://samizo-aitl.github.io/Private/Epson/)  
 - 📄 [PDH_link.md](PDH_link.md)  
 - 📁 Subdirectories: `Mach/`, `uTFP/`, `comparison/`, `inkjet_material_drafts/`, `production_quality/`  
 
