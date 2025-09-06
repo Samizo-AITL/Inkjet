@@ -55,27 +55,13 @@ It spans **structure, drive methods, ink compatibility, application-specific eva
 ## 🎞️ 構造アニメーション / Structural Animations
 
 ### Piezoelectric DOD Inkjet (圧電方式)
-<object type="image/svg+xml" data="/assets/svg/inkjet_piezo_animation.svg" width="720"></object>
+<iframe src="{{ site.baseurl }}/assets/svg/inkjet_piezo_animation.svg" width="720" height="420" style="border:0"></iframe>
 
 ### Thermal Bubble Inkjet (サーマル方式)
-<object type="image/svg+xml" data="/assets/svg/inkjet_thermal_animation.svg" width="720"></object>
+<iframe src="{{ site.baseurl }}/assets/svg/inkjet_thermal_animation.svg" width="720" height="420" style="border:0"></iframe>
 
 > ⚠️ 表示は教育用に時間・寸法を誇張しています  
 > **Note:** Geometry and timing exaggerated for visualization
-
-### Piezoelectric DOD Inkjet (圧電方式)
-<iframe src="/Inkjet/assets/svg/inkjet_piezo_animation.svg" width="720" height="420" style="border:0"></iframe>
-
-### Thermal Bubble Inkjet (サーマル方式)
-<iframe src="/Inkjet/assets/svg/inkjet_thermal_animation.svg" width="720" height="420" style="border:0"></iframe>
-
-<div style="max-width:720px">
-  <!-- ここに inkjet_piezo_animation.svg の <svg>…</svg> を丸ごと貼り付け -->
-</div>
-
-<!doctype html><meta charset="utf-8">
-<h3>SVG iframe test</h3>
-<iframe src="/Inkjet/assets/svg/inkjet_piezo_animation.svg" width="720" height="420" style="border:0"></iframe>
 
 ---
 
