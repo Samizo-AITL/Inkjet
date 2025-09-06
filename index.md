@@ -63,6 +63,12 @@ It spans **structure, drive methods, ink compatibility, application-specific eva
 > ⚠️ 表示は教育用に時間・寸法を誇張しています  
 > **Note:** Geometry and timing exaggerated for visualization
 
+### Piezoelectric DOD Inkjet (圧電方式)
+<iframe src="/Inkjet/assets/svg/inkjet_piezo_animation.svg" width="720" height="420" style="border:0"></iframe>
+
+### Thermal Bubble Inkjet (サーマル方式)
+<iframe src="/Inkjet/assets/svg/inkjet_thermal_animation.svg" width="720" height="420" style="border:0"></iframe>
+
 ---
 
 ## 📚 **Repository Contents / コンテンツ構成**
