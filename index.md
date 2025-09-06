@@ -52,19 +52,6 @@ It spans **structure, drive methods, ink compatibility, application-specific eva
 
 ---
 
-## 🎞️ 構造アニメーション / Structural Animations
-
-### Piezoelectric DOD Inkjet (圧電方式)
-<iframe src="{{ site.baseurl }}/assets/svg/inkjet_piezo_animation.svg" width="720" height="420" style="border:0"></iframe>
-
-### Thermal Bubble Inkjet (サーマル方式)
-<iframe src="{{ site.baseurl }}/assets/svg/inkjet_thermal_animation.svg" width="720" height="420" style="border:0"></iframe>
-
-> ⚠️ 表示は教育用に時間・寸法を誇張しています  
-> **Note:** Geometry and timing exaggerated for visualization
-
----
-
 ## 📚 **Repository Contents / コンテンツ構成**
 
 | フォルダ / Folder | 説明（日本語 / Japanese） | Summary (English) |
