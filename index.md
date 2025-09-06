@@ -69,6 +69,14 @@ It spans **structure, drive methods, ink compatibility, application-specific eva
 ### Thermal Bubble Inkjet (サーマル方式)
 <iframe src="/Inkjet/assets/svg/inkjet_thermal_animation.svg" width="720" height="420" style="border:0"></iframe>
 
+<div style="max-width:720px">
+  <!-- ここに inkjet_piezo_animation.svg の <svg>…</svg> を丸ごと貼り付け -->
+</div>
+
+<!doctype html><meta charset="utf-8">
+<h3>SVG iframe test</h3>
+<iframe src="/Inkjet/assets/svg/inkjet_piezo_animation.svg" width="720" height="420" style="border:0"></iframe>
+
 ---
 
 ## 📚 **Repository Contents / コンテンツ構成**
