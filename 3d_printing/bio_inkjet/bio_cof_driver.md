@@ -3,6 +3,8 @@ layout: default
 title: COF駆動ICと配線仕様 | COF Driver IC & Interconnects
 ---
 
+---
+
 # 🔌 COF駆動ICと配線仕様
 
 本章では、生体インクジェット (Bio-IJ) 用の **駆動IC** と  
