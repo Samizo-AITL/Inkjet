@@ -88,3 +88,10 @@ flowchart LR
     SiHead --> Application
 ```
 
+---
+
+## 📑 関連文書 / *Related Document*
+
+[📄 Bio-Inkjet Paper (PDF)](./bioinkjet_knn.pdf)  
+*Lead-free Bio-Inkjet Printing with Bulk KNN Actuators*
+
