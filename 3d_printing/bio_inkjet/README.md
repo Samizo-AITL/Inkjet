@@ -3,34 +3,29 @@ layout: default
 title: 生体インクジェット技術 (Bio-Inkjet) | Lead-free Bio Inkjet Printing
 ---
 
----
-
 # 🧬 生体インクジェット技術 (Bio-Inkjet)  
 *Bio-Compatible Inkjet Printing with Lead-free Piezoelectrics*
 
-このディレクトリでは、**鉛フリー圧電材料 (KNN, ScAlN)** を用いた  
-**生体適用インクジェット (Bio-IJ)** の仮想モデルを整理します。  
-インクシステム・駆動IC・キャビティ形成・ノズル設計などを  
-モジュールごとに分けてまとめ、**教育・研究・応用開発**に役立つ知識基盤を構築します。  
+このディレクトリは、**教材用ポータル**として構成されています。  
+鉛フリー圧電材料 (KNN, ScAlN) を用いた **生体適用インクジェット (Bio-IJ)** の  
+仮想モデルを整理し、**教育・研究・応用開発**に役立つ知識基盤を提供します。  
 
-*This directory organizes a **virtual model of bio-compatible inkjet (Bio-IJ)**  
-based on **lead-free piezoelectric materials (KNN, ScAlN)**.  
-It covers ink system, driver IC, Si cavity formation, nozzle design, and more,  
-structured as modules for **education, research, and applied development**.*
+> 💡 **Note**: 本ページは教育教材を主目的とし、研究論文ドラフトPDFは「参考資料」として同梱しています。
 
 ---
 
-## 📑 コンテンツ構成 / *Contents*
+## 📑 コンテンツ一覧 / *Contents*
 
-- [⚙️ 材料と圧電デバイス (KNN/ScAlN) / *Materials & Piezo Devices*](bio_knn_device.md)  
-- [🔬 Siキャビティとノズル形成 / *Si Cavity & Nozzle Formation*](bio_si_cavity.md)  
-- [🔌 COF駆動ICと配線仕様 / *COF Driver IC & Interconnects*](bio_cof_driver.md)  
-- [💧 リザーバ・背圧・PIダンパ / *Reservoir, Back Pressure & PI Damper*](bio_reservoir.md)  
-- [🧬 応用例：バイオプリンティング / *Applications: Bioprinting*](bio_applications.md)  
+- [⚙️ 材料と圧電デバイス (KNN/ScAlN)](bio_knn_device.md)  
+- [🔬 Siキャビティとノズル形成](bio_si_cavity.md)  
+- [🔌 COF駆動ICと配線仕様](bio_cof_driver.md)  
+- [💧 リザーバ・背圧・PIダンパ](bio_reservoir.md)  
+- [🧬 応用例：バイオプリンティング](bio_applications.md)  
+- [📐 プロセスフロー (Bulk KNN)](process_flow_bulkKNN.md)  
 
 ---
 
-## 🎯 目的と特徴 / *Objectives & Features*
+## 🎯 教材の目的と特徴 / *Objectives & Features*
 
 | 項目 | 日本語 / *Japanese* | 英語 / *English* |
 |------|------------------|------------------|
@@ -39,6 +34,20 @@ structured as modules for **education, research, and applied development**.*
 | **構造** | MEMS技術 (Siキャビティ, 薄膜形成) の応用 | Application of **MEMS technologies** (Si cavity, thin films) |
 | **駆動** | COF実装・駆動ICによる多ch駆動 | **COF-packaged driver ICs** for multi-channel actuation |
 | **流体制御** | 背圧・ダンパ・脱気を組み込んだ安定吐出 | Stable jetting via **back pressure, damper, degassing** |
+
+---
+
+## ⚡ 自己診断・適応制御 / *Self-Diagnosis & Adaptive Control*
+
+鉛フリー圧電アクチュエータ (KNN) は、駆動電流や電荷応答を  
+**センサー代替**として利用できる特性を持っています。  
+これにより、以下のような自己診断・適応制御が可能です：
+
+- **ドット抜け検出**：電荷・変位シグネチャから未吐出を検出し、隣接ノズルで補償  
+- **粘度推定**：応答速度の変化からインク粘度を推定し、駆動電圧をフィードバック  
+- **適応制御**：PIDゲインやFSM制御モードをリアルタイムで更新し、安定吐出を維持  
+
+> 🧪 詳細な数式モデルや制御アルゴリズムは研究ドラフトPDFに掲載しています。
 
 ---
 
@@ -90,8 +99,7 @@ flowchart LR
 
 ---
 
-## 📑 関連文書 / *Related Document*
+## 📄 研究ドラフト (参考資料) / *Research Draft (For Reference)*
 
-[📄 Bio-Inkjet Paper (PDF)](./bioinkjet_knn.pdf)  
-*Lead-free Bio-Inkjet Printing with Bulk KNN Actuators*
-
+- [📄 Bio-Inkjet Paper (PDF)](bioinkjet_knn.pdf)  
+  *Lead-free Bio-Inkjet Printing with Bulk KNN Actuators and AITL-based Adaptive Control*
