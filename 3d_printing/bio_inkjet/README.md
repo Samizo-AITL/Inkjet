@@ -3,6 +3,8 @@ layout: default
 title: 生体インクジェット技術 (Bio-Inkjet) | Lead-free Bio Inkjet Printing
 ---
 
+---
+
 # 🧬 生体インクジェット技術 (Bio-Inkjet)  
 *Bio-Compatible Inkjet Printing with Lead-free Piezoelectrics*
 
