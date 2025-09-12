@@ -22,6 +22,7 @@ title: 生体インクジェット技術 (Bio-Inkjet) | Lead-free Bio Inkjet Pri
 - [🔬 Siキャビティとノズル形成](bio_si_cavity.md)  
 - [🔌 COF駆動ICと配線仕様](bio_cof_driver.md)  
 - [💧 リザーバ・背圧・PIダンパ](bio_reservoir.md)  
+- [⚡ 自己診断・適応制御](bio_selfdiagnosis.md)  
 - [🧬 応用例：バイオプリンティング](bio_applications.md)  
 - [📐 プロセスフロー (Bulk KNN)](process_flow_bulkKNN.md)  
 
@@ -36,29 +37,7 @@ title: 生体インクジェット技術 (Bio-Inkjet) | Lead-free Bio Inkjet Pri
 | **構造** | MEMS技術 (Siキャビティ, 薄膜形成) の応用 | Application of **MEMS technologies** (Si cavity, thin films) |
 | **駆動** | COF実装・駆動ICによる多ch駆動 | **COF-packaged driver ICs** for multi-channel actuation |
 | **流体制御** | 背圧・ダンパ・脱気を組み込んだ安定吐出 | Stable jetting via **back pressure, damper, degassing** |
-
----
-
-## ⚡ 自己診断・適応制御 / *Self-Diagnosis & Adaptive Control*
-
-鉛フリー圧電アクチュエータ (KNN) は、駆動電流や電荷応答を  
-**センサー代替 / *sensor substitute*** として利用できる特性を持っています。  
-これにより、以下のような自己診断・適応制御が可能です:  
-
-- **ドット抜け検出 / *Missing dot detection***：  
-  電荷・変位シグネチャから未吐出を検出し、隣接ノズルで補償  
-  (*Detect missing droplets via charge/displacement signature and compensate with neighboring nozzles*)  
-
-- **粘度推定 / *Viscosity estimation***：  
-  応答速度の変化からインク粘度を推定し、駆動電圧をフィードバック  
-  (*Estimate ink viscosity from response speed and adjust driving voltage accordingly*)  
-
-- **適応制御 / *Adaptive control***：  
-  PIDゲインやFSM制御モードをリアルタイムで更新し、安定吐出を維持  
-  (*Update PID gains and FSM control modes in real time to maintain stable jetting*)  
-
-> 🧪 詳細な数式モデルや制御アルゴリズムは研究ドラフトPDFに掲載しています。  
-> (*Detailed mathematical models and control algorithms are provided in the research draft PDF.*)
+| **制御** | 自己診断・適応制御による安定性と信頼性向上 | **Self-diagnosis and adaptive control** for stability and reliability |
 
 ---
 
