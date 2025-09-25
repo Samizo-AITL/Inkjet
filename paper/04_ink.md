@@ -33,6 +33,24 @@
   - 高粘度傾向だが、ノズル詰まり防止の工夫が必要。  
 - **主な用途**: プリント基板形成、RFIDアンテナ、フレキシブルエレクトロニクス。
 
+```mermaid
+mindmap
+  root((Inks))
+    染料系 (Dye-based)
+      高発色
+      低耐久性
+    顔料系 (Pigment-based)
+      耐光性・耐水性
+      凝集リスク
+    バイオインク (Bioink)
+      細胞
+      タンパク質
+    導電性インク (Conductive)
+      銀ナノ粒子
+      CNT/グラフェン
+      PEDOT:PSS
+```
+
 ---
 
 ## ⚙️ インクの物性パラメータ / Physical Properties
