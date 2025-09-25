@@ -80,6 +80,31 @@
   - 活性保持（タンパク質変性の防止）。  
   - 表面固定化の最適化（化学修飾・SAM・ポリマー層）。  
 
+--
+
+## 🌐 応用マップ / Application Map
+
+```mermaid
+mindmap
+  root((Inkjet Applications))
+    Printing
+      Commercial Printing
+      Photo Printing
+      Packaging
+    Electronics
+      Conductive Inks
+      Flexible Circuits
+      RFID/Display Electrodes
+    Semiconductor
+      Insulating Films
+      Metallization
+      Patterning Assist
+    Bio
+      Cell Printing
+      Protein Microarray
+      Organoids
+```
+
 ---
 
 ## 📊 応用分野まとめ / Summary Table
