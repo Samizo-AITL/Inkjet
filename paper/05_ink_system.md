@@ -33,6 +33,14 @@
   - ノズル直前で循環ラインを持たせ、常にインクが流動する構造。  
   - 圧力バランスと連動して流量を制御する。  
 
+```mermaid
+flowchart LR
+  A[インクカートリッジ<br/>Ink Cartridge] --> B[フィルタ<br/>Filter]
+  B --> C[デガス処理<br/>Degassing]
+  C --> D[循環機構<br/>Recirculation]
+  D --> E[ノズル<br/>Nozzle]
+```
+
 ---
 
 ## 🛠️ 工学的制御 / Engineering Control
