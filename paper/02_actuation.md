@@ -9,6 +9,17 @@
 
 ---
 
+## 🖼️ 駆動方式の模式図 / Conceptual Diagrams
+
+```mermaid
+flowchart LR
+  A[ピエゾ型<br/>Piezo] -->|圧電素子が変位| B((液滴射出))
+  C[サーマル型<br/>Thermal] -->|ヒーターでバブル膨張| B
+  D[EHD型<br/>Electrohydrodynamic] -->|高電場でTaylor cone形成| B
+```
+
+---
+
 ## 1️⃣ ピエゾ型 / Piezoelectric Actuation
 ### 🧩 原理
 - 圧電素子（主に PZT: Pb(Zr,Ti)O₃）に電圧を印加すると、結晶が伸縮する **圧電効果** を利用。  
