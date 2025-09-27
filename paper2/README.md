@@ -48,3 +48,14 @@
 - 設計効率化・再現性確保・高速PoCの実現を確認
 - 研究的意義：マルチドメイン統合による設計革新
 - 将来的展望：テキスタイル、PCB、パッケージ領域への展開可能性
+
+## 参考文献 (References)
+
+[1] Boccio, J., "Computational fluid dynamics study of droplet formation in a piezo inkjet printhead", Rochester Institute of Technology, 2003.  
+[2] Kim, S. et al., "The Effect of Ink Supply Pressure on Piezoelectric Inkjet", Micromachines, 13(4), 615, 2022.  
+[3] Lei, T. et al., "Numerical Analysis and Optimal CFD Model Verification of Piezoelectric Inkjet Printhead", Journal of Applied Fluid Mechanics, 2012.  
+[4] Shin, D.Y. et al., "Simulation of OLED-based inkjet printing using a piezoelectric fluid-structure interaction model", Scientific Reports, 2025.  
+[5] Performance Study of Piezoelectric Injection System Based on Finite Element Simulations, Sensors, 2023.  
+[6] Derby, B., "Inkjet Printing of Functional and Structural Materials: Fluid Property Requirements, Feature Stability, and Resolution", Annu. Rev. Mater. Res., 40, 2010.  
+[7] Calvert, P., "Inkjet Printing for Materials and Devices", Chem. Mater., 13(10), 2001.
+
