@@ -1,129 +1,215 @@
-/* ===== Reset / Layout (minima等の装飾を抑える) ===== */
-html, body { margin: 0; padding: 0; }
-.site-header, .site-footer, .page-header, .page-footer { display: none !important; }
-.page-content { padding: 0 !important; margin: 0 !important; }
+/* ─────────────────────────────
+   Samizo-AITL Minimal Engineering CSS
+   Semiconductor / Control / AITL
+   ───────────────────────────── */
 
-/* ===== Base container (fallback when no theme class) ===== */
-main.page,
-main.container,
-.page-content > .wrapper,
-.page-content > .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 12px 16px;
-  line-height: 1.7;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Hiragino Sans",
-               "Yu Gothic", "Meiryo", sans-serif;
-  word-wrap: anywhere;
-  color: #222;
-  background: #fff;
+/* ==============================
+   Reset / Stability
+   ============================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-/* 見出し（GitHub風のメリハリ） */
-h1, h2, h3 { margin: 0.9em 0 0.45em; line-height: 1.25; }
-h1 { font-size: 1.9rem; }
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ==============================
+   Base (TECHNICAL FONT / IEEE / Datasheet)
+   ============================== */
+body {
+  margin: 0;
+
+  /* ★ 技術用フォント（確定・半導体/制御/仕様書） */
+  font-family:
+    system-ui,                 /* OS標準（最優先） */
+    -apple-system,             /* macOS */
+    BlinkMacSystemFont,        /* macOS Chromium */
+    "Segoe UI",                /* Windows（EDA/制御の王道） */
+    "Hiragino Kaku Gothic ProN",/* macOS 日本語 */
+    "Yu Gothic UI",            /* Windows 日本語 */
+    "Yu Gothic",
+    sans-serif;
+
+  font-size: 16px;
+  line-height: 1.7;
+  color: #1f2933;              /* 工学向けダークグレー */
+  background: #f9fafb;        /* クールホワイト */
+}
+
+/* ==============================
+   Headings
+   ============================== */
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.6rem 0 0.8rem;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #003366;              /* 工学ブルー */
+}
+
+h1 { font-size: 1.8rem; }
 h2 { font-size: 1.5rem; }
 h3 { font-size: 1.25rem; }
 
-/* リンク（fallback） */
-a { color: #0366d6; text-decoration: none; }
-a:hover { text-decoration: underline; }
+/* ==============================
+   Paragraph / Lists
+   ============================== */
+p, ul, ol {
+  margin: 0.7rem 0 1rem;
+}
 
-/* ===== Tables (fallback GitHub風) ===== */
-.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-table { border-collapse: collapse; width: 100%; margin: .8em 0; }
-th, td { border: 1px solid #999; padding: 6px 8px; vertical-align: top; }
-th { background: #f6f8fa; font-weight: 600; text-align: left; }
+ul, ol {
+  padding-left: 1.25rem;
+}
 
-/* メディア / コード */
-img { max-width: 100%; height: auto; display: block; }
-pre {
-  overflow: auto;
-  padding: 10px;
-  background: #fafafa;
-  border: 1px solid #eee;
+/* ==============================
+   Links
+   ============================== */
+a {
+  color: #2563eb;              /* 技術文書ブルー */
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+/* ==============================
+   Horizontal Rule
+   ============================== */
+hr {
+  border: 0;
+  border-top: 2px solid #000;
+  margin: 1.5rem 0;
+}
+
+/* ==============================
+   Media
+   ============================== */
+img, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+/* ==============================
+   Code / Pre (EDA / Control)
+   ============================== */
+code, kbd, samp {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+  font-size: 0.95em;
+  background: #eef2f7;
+  padding: 0.15em 0.35em;
   border-radius: 4px;
-  margin: .7em 0;
+  color: #0f172a;
 }
-code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-pre code { background: transparent; padding: 0; }
 
-/* 引用 */
+pre {
+  background: #eef2f7;
+  border: 1px solid #cbd5e1;
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  overflow: auto;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+/* ==============================
+   Blockquote (spec / note)
+   ============================== */
 blockquote {
-  margin: .8em 0;
-  padding: .6em .9em;
-  border-left: 4px solid #d0d7de;
-  background: #f8fafc;
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  color: #334155;
+  background: #f1f5f9;
+  border-left: 4px solid #2563eb;
 }
 
-/* Mermaid */
-.mermaid { display: block; margin: 1.2em auto; max-width: 100%; overflow: auto; }
-.mermaid svg { height: auto; }
+/* ==============================
+   Tables (Datasheet Standard)
+   ============================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  border: 1.5px solid #cbd5e1;
+  font-size: 0.95em;           /* データシート密度 */
+}
 
-/* Mobile */
-@media (max-width: 640px) {
-  main.page,
-  main.container,
-  .page-content > .wrapper,
-  .page-content > .container { padding: 10px 12px; }
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 0.4rem 0.6rem;      /* 密度高め */
+  vertical-align: middle;
+}
+
+th {
+  background: #e5e7eb;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+}
+
+td {
+  background: #ffffff;
+}
+
+/* ==============================
+   Mermaid
+   ============================== */
+.mermaid {
+  display: block;
+  margin: 1.25rem auto;
+  max-width: 100%;
+  text-align: center;
+}
+
+/* ==============================
+   Responsive
+   ============================== */
+@media (max-width: 768px) {
+  body {
+    font-size: 15.5px;
+  }
+
   h1 { font-size: 1.6rem; }
   h2 { font-size: 1.35rem; }
   h3 { font-size: 1.15rem; }
+
+  table {
+    font-size: 0.9em;
+  }
 }
 
-/* =========================================================
-   Portal unified look (theme-sepia) — body に .theme-sepia がある時に適用
-   ========================================================= */
-body.theme-sepia main.page,
-body.theme-sepia main.container,
-body.theme-sepia .page-content > .wrapper,
-body.theme-sepia .page-content > .container {
-  background: #fdf6e3;
-  color: #3b2f2f;
-}
+/* ==============================
+   Print (Engineering Document)
+   ============================== */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+  }
 
-/* 見出し：青字、H1は左揃え */
-body.theme-sepia h1,
-body.theme-sepia h2,
-body.theme-sepia h3 {
-  color: #003366;
-  border-bottom: none;
-  font-weight: 700;
-}
-body.theme-sepia h1 { font-size: 2rem; text-align: left; margin-top: 0.8em; margin-bottom: 0.6em; }
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
 
-/* リンク：太字＋下線（やや小さめ） */
-body.theme-sepia a {
-  color: #0066cc;
-  font-weight: 600;
-  font-size: .95em;
-  text-decoration: underline;
-}
-body.theme-sepia a:hover { color: #004c99; }
-
-/* 表：薄茶ヘッダー＋実用罫線＋ストライプ */
-body.theme-sepia .table-wrap { overflow-x: auto; }
-body.theme-sepia table { border: 2px solid #999; }
-body.theme-sepia th {
-  background: #e9ddc9;
-  color: #2b2b2b;
-  border: 2px solid #999;
-  font-weight: 700;
-  padding: .8em 1em;
-  white-space: nowrap;
-}
-body.theme-sepia td {
-  border: 1.5px solid #bbb;
-  color: #2b2b2b;
-  padding: .8em 1em;
-}
-body.theme-sepia tr:nth-child(odd) td  { background: #fff; }
-body.theme-sepia tr:nth-child(even) td { background: #f3efe6; }
-
-/* 引用（セピアトーン） */
-body.theme-sepia blockquote {
-  background: #fbf6eb;
-  border-left: 4px solid #007acc;
-  color: #3a3028;
+  pre, code, blockquote {
+    background: #fff;
+    border-color: #000;
+  }
 }
