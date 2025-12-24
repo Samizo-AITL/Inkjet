@@ -110,10 +110,7 @@ Inkjet/
 
 | Project Name | Links | Summary (English) | 内容（日本語 / Japanese） |
 |--------------|-------|-------------------|---------------------------|
-| **Edusemi-v4x** | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/Edusemi-v4x/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/Edusemi-v4x) | Semiconductor education (process, design, PDK, test) | 半導体技術教育（プロセス・設計・PDK・テスト） |
 | **EduMecha** | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/EduMecha/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/EduMecha) | Mechanical design & Creo training (printhead structure exercises) | 機械設計・Creo教材（プリントヘッド構造演習対応） |
-| **AITL-H** | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/AITL-H/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/AITL-H) | Hybrid intelligent control (equipment control capable) | FSM×PID×LLMによる知能制御（装置制御応用可） |
-| **SamizoGPT** | [![View Site](https://img.shields.io/badge/view-Site-green)](https://samizo-aitl.github.io/SamizoGPT/) [![View Repo](https://img.shields.io/badge/view-Repo-blue)](https://github.com/Samizo-AITL/SamizoGPT) | Prompt design & learning support tool | 教材・プロンプト設計支援ツール |
 
 ---
 
