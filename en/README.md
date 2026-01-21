@@ -119,9 +119,7 @@ Inkjet/
 | Item | Details |
 |------|---------|
 | **Name** | Shinichi Samizo |
-| **Education** | Master, Electrical & Electronic Engineering, Shinshu University |
-| **Career** | Former Seiko Epson Corporation engineer (1997–) |
-| **Expertise** | Semiconductor devices (logic, memory, high-voltage integration)<br>Inkjet thin-film piezo actuators<br>PrecisionCore printhead productization, BOM management, ISO training |
+| **Expertise** | Semiconductor devices (logic, memory, high-voltage integration)<br>Inkjet thin-film piezo actuators<br>Printhead productization, BOM management, ISO training |
 | **💻 GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-Samizo--AITL-blue?style=for-the-badge&logo=github)](https://github.com/Samizo-AITL) |
 
 ---
